@@ -48,9 +48,9 @@ function init() {
 function initMap() {
   google.maps.visualRefresh = true;
 
-  var myLatlng = new google.maps.LatLng(34.8444413,-81.7846179);
+  var myLatlng = new google.maps.LatLng(38.1, -96.24);
   var mapOptions = {
-    zoom: 6,
+    zoom: 4,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: false,
@@ -80,7 +80,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v / 50) * 50;
+        return Math.floor(v);
       });
 
   val2Dimension = filter.dimension(
@@ -89,7 +89,7 @@ function initCrossfilter() {
       });
   val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 1) * 1;
+        return Math.floor(v / 25) * 25;
       });
 
   // initialize charts (helper function in chart.js)
@@ -99,16 +99,16 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 5000])
+          .domain([0, 10])
           .rangeRound([0, 10 * 10])),
 
     barChart()
       .dimension(val2Dimension)
       .group(val2Grouping)
       .x(d3.scale.linear()
-          .domain([0, 20])
-          .rangeRound([0, 10 * 10]))
-      .filter([10, 20])
+          .domain([0, 1000])
+          .rangeRound([0, 40 * 10]))
+      .filter([75, 525])
   ];
 
   // bind charts to dom
