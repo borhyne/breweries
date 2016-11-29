@@ -99,16 +99,16 @@ function initCrossfilter() {
       .dimension(POPDensityDimension)
       .group(POPDensityGrouping)
       .x(d3.scale.linear()
-          .domain([0, 10])
-          .rangeRound([0, 10 * 10])),
+          .domain([0, 2000])
+          .rangeRound([0, 200 * 200])),
 
     barChart()
       .dimension(LANDSQMIDimension)
       .group(LANDSQMIGrouping)
       .x(d3.scale.linear()
-          .domain([0, 1000])
-          .rangeRound([0, 40 * 10]))
-      .filter([75, 525])
+          .domain([0, 100])
+          .rangeRound([0, 4 * 1]))
+      .filter([10, 20])
   ];
 
   // bind charts to dom
