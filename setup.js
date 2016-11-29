@@ -6,10 +6,10 @@ var map;
 var markers = [];
 
 var filter;
-var val1Dimension;
-var val1Grouping;
-var val2Dimension;
-var val2Grouping;
+var PDDimension;
+var PDGrouping;
+var MIDimension;
+var MIGrouping;
 var charts;
 var domCharts;
 
@@ -48,9 +48,9 @@ function init() {
 function initMap() {
   google.maps.visualRefresh = true;
 
-  var myLatlng = new google.maps.LatLng(38.1, -96.24);
+  var myLatlng = new google.maps.LatLng(34.8785055,-80.4540487);
   var mapOptions = {
-    zoom: 4,
+    zoom: 6,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: false,
@@ -74,20 +74,20 @@ function initCrossfilter() {
   filter = crossfilter(points);
 
   // simple dimensions and groupings for major variables
-  val1Dimension = filter.dimension(
+  PDDimension = filter.dimension(
       function(p) {
-        return p.val1;
+        return p.POPDensity;
       });
-  val1Grouping = val1Dimension.group(
+  PDGrouping = PDDimension.group(
       function(v) {
         return Math.floor(v);
       });
 
-  val2Dimension = filter.dimension(
+  MIDimension = filter.dimension(
       function(p) {
-        return p.val2;
+        return p.MedianIncome;
       });
-  val2Grouping = val2Dimension.group(
+  MIGrouping = MIDimension.group(
       function(v) {
         return Math.floor(v / 25) * 25;
       });
@@ -96,17 +96,17 @@ function initCrossfilter() {
   // taken directly from crossfilter's example
   charts = [
     barChart()
-      .dimension(val1Dimension)
-      .group(val1Grouping)
+      .dimension(PDDimension)
+      .group(PDGrouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
-          .rangeRound([0, 50 * 50])),
+          .rangeRound([0, 10 * 10])),
 
     barChart()
-      .dimension(val2Dimension)
-      .group(val2Grouping)
+      .dimension(MIDimension)
+      .group(MIGrouping)
       .x(d3.scale.linear()
-          .domain([0, 20])
+          .domain([0, 250000])
           .rangeRound([0, 10 * 10]))
       .filter([10, 20])
   ];
