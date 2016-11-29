@@ -1,7 +1,5 @@
 // simple example data
 var points = [
-<<<<<<< HEAD
-	[
   {
     Brewery: "2 Witches",
     Address: "209 Trade St, Danville, VA 24541",
@@ -4219,4 +4217,3 @@ var points = [
 		MedianIncome: 42289
 	}
 ];
->>>>>>> origin/master
