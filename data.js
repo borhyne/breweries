@@ -29,4 +29,4 @@ var points = [
 		MedianIncome: 42289
 	},
 }
-]
+];
