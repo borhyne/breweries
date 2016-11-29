@@ -76,7 +76,7 @@ function initCrossfilter() {
   // simple dimensions and groupings for major variables
   val1Dimension = filter.dimension(
       function(p) {
-        return p.val1;
+        return p.POPDensity;
       });
   val1Grouping = val1Dimension.group(
       function(v) {
@@ -85,7 +85,7 @@ function initCrossfilter() {
 
   val2Dimension = filter.dimension(
       function(p) {
-        return p.val2;
+        return p.LANDSQMI;
       });
   val2Grouping = val2Dimension.group(
       function(v) {
