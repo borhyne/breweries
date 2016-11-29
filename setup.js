@@ -80,7 +80,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v);
+        return Math.floor(v / 50) * 50;
       });
 
   val2Dimension = filter.dimension(
@@ -89,7 +89,7 @@ function initCrossfilter() {
       });
   val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 25) * 25;
+        return Math.floor(v / 1) * 1;
       });
 
   // initialize charts (helper function in chart.js)
@@ -99,16 +99,16 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 10])
+          .domain([0, 5000])
           .rangeRound([0, 10 * 10])),
 
     barChart()
       .dimension(val2Dimension)
       .group(val2Grouping)
       .x(d3.scale.linear()
-          .domain([0, 1000])
-          .rangeRound([0, 40 * 10]))
-      .filter([75, 525])
+          .domain([0, 20])
+          .rangeRound([0, 10 * 10]))
+      .filter([10, 20])
   ];
 
   // bind charts to dom
