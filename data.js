@@ -27,6 +27,5 @@ var points = [
 		val1: 1789.299152,
 		val2: 18.56,
 		MedianIncome: 42289
-	},
-}
+	}
 ];
