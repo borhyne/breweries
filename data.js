@@ -10,8 +10,8 @@ var points = [
 		lat: 36.04536,
 		lng: -80.3232,
 		url: "https://www.yelp.com/biz/foothills-brewing-winston-salem-5?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-		POPDensity: 1789.299152,
-		LANDSQMI: 18.56,
+		val1: 1789.299152,
+		val2: 18.56,
 		MedianIncome: 42289
 	},
 	{
@@ -24,8 +24,8 @@ var points = [
 		lat: 36.0723737,
 		lng: -80.3003323,
 		url: "https://www.yelp.com/biz/bjs-restaurant-and-brewhouse-winston-salem?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-		POPDensity: 1789.299152,
-		LANDSQMI: 18.56,
+		val1: 1789.299152,
+		val2: 18.56,
 		MedianIncome: 42289
 	},
 }
