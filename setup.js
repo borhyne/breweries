@@ -6,10 +6,10 @@ var map;
 var markers = [];
 
 var filter;
-var val1Dimension;
-var val1Grouping;
-var val2Dimension;
-var val2Grouping;
+var POPDensityDimension;
+var POPDensityGrouping;
+var LANDSQMIDimension;
+var LANDSQMIGrouping;
 var charts;
 var domCharts;
 
@@ -74,20 +74,20 @@ function initCrossfilter() {
   filter = crossfilter(points);
 
   // simple dimensions and groupings for major variables
-  val1Dimension = filter.dimension(
+  POPDensityDimension = filter.dimension(
       function(p) {
-        return p.val1;
+        return p.POPDensity;
       });
-  val1Grouping = val1Dimension.group(
+  POPDensityGrouping = POPDensityDimension.group(
       function(v) {
         return Math.floor(v);
       });
 
-  val2Dimension = filter.dimension(
+  LANDSQMIDimension = filter.dimension(
       function(p) {
-        return p.val2;
+        return p.LANDSQMI;
       });
-  val2Grouping = val2Dimension.group(
+  LANDSQMIGrouping = LANDSQMIDimension.group(
       function(v) {
         return Math.floor(v / 25) * 25;
       });
@@ -96,15 +96,15 @@ function initCrossfilter() {
   // taken directly from crossfilter's example
   charts = [
     barChart()
-      .dimension(val1Dimension)
-      .group(val1Grouping)
+      .dimension(POPDensityDimension)
+      .group(POPDensityGrouping)
       .x(d3.scale.linear()
           .domain([0, 10])
           .rangeRound([0, 10 * 10])),
 
     barChart()
-      .dimension(val2Dimension)
-      .group(val2Grouping)
+      .dimension(LANDSQMIDimension)
+      .group(LANDSQMIGrouping)
       .x(d3.scale.linear()
           .domain([0, 1000])
           .rangeRound([0, 40 * 10]))
