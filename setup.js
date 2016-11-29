@@ -100,15 +100,15 @@ function initCrossfilter() {
       .group(PDGrouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
-          .rangeRound([0, 10 * 10])),
+          .rangeRound([0, 10 * 20])),
 
     barChart()
       .dimension(MIDimension)
       .group(MIGrouping)
       .x(d3.scale.linear()
           .domain([0, 250000])
-          .rangeRound([0, 10 * 10]))
-      .filter([10, 20])
+          .rangeRound([0, 10 * 25]))
+      .filter([50000, 100000])
   ];
 
   // bind charts to dom
