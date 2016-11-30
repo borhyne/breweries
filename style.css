@@ -49,12 +49,12 @@ body {
   stroke: #666;
 }
 
-#val-chart {
-  width: 200px;
+#PD-chart {
+  width: 250px;
 }
 
-#val2-chart {
-  width: 250px;
+#MI-chart {
+  width: 200px;
 }
 
 #map-div {

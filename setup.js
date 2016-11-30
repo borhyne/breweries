@@ -80,7 +80,7 @@ function initCrossfilter() {
       });
   PDGrouping = PDDimension.group(
       function(v) {
-        return Math.floor(v / 50) * 50;
+        return Math.floor(v / 100) * 100;
       });
 
   MIDimension = filter.dimension(
@@ -89,7 +89,7 @@ function initCrossfilter() {
       });
   MIGrouping = MIDimension.group(
       function(v) {
-        return Math.floor(v / 5000) * 5000;
+        return Math.floor(v / 1000) * 1000;
       });
 
   // initialize charts (helper function in chart.js)
@@ -100,14 +100,14 @@ function initCrossfilter() {
       .group(PDGrouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
-          .rangeRound([0, 20 * 10])),
+          .rangeRound([0, 5 * 50])),
 
     barChart()
       .dimension(MIDimension)
       .group(MIGrouping)
       .x(d3.scale.linear()
-          .domain([0, 250000])
-          .rangeRound([0, 25 * 10]))
+          .domain([0, 200000])
+          .rangeRound([0, 20 * 10]))
   ];
 
   // bind charts to dom
