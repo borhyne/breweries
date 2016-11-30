@@ -100,7 +100,7 @@ function initCrossfilter() {
       .group(PDGrouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
-          .rangeRound([0, 5 * 50])),
+          .rangeRound([0, 20 * 10])),
 
     barChart()
       .dimension(MIDimension)
