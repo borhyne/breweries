@@ -84,7 +84,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v / 10) * 10;
+        return Math.floor(v / 100) * 100;
       });
 
   val2Dimension = filter.dimension(
@@ -93,7 +93,7 @@ function initCrossfilter() {
       });
   val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 5000) * 5000;
+        return Math.floor(v / 10000) * 10000;
       });
 
   yelpDimension = filter.dimension(
@@ -102,7 +102,7 @@ function initCrossfilter() {
       });
   yelpGrouping = yelpDimension.group(
       function(v) {
-        return Math.floor(v);
+        return Math.floor(v / .5) * .5;
       });
 
   reviewsDimension = filter.dimension(
@@ -111,7 +111,7 @@ function initCrossfilter() {
       });
   reviewsGrouping = reviewsDimension.group(
       function(v) {
-        return Math.floor(v / 100) * 100;
+        return Math.floor(v / 25) * 25;
       });
 
   // initialize charts (helper function in chart.js)
@@ -121,7 +121,7 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 5500])
+          .domain([0, 6000])
           .rangeRound([0, 60 * 5])),
 
     barChart()
@@ -135,7 +135,7 @@ function initCrossfilter() {
       .dimension(yelpDimension)
       .group(yelpGrouping)
       .x(d3.scale.linear()
-          .domain([0, 5.5])
+          .domain([0, 5])
           .rangeRound([0, 30 * 3])),
 
     barChart()
