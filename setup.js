@@ -84,7 +84,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v / 100) * 100;
+        return Math.floor(v / 5000) * 5000;
       });
 
   val2Dimension = filter.dimension(
@@ -121,7 +121,7 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 6000])
+          .domain([0, 30000])
           .rangeRound([0, 60 * 5])),
 
     barChart()
