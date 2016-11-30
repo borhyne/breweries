@@ -121,29 +121,29 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 5000])
+          .domain([0, 5500])
           .rangeRound([0, 30 * 10])),
 
     barChart()
       .dimension(val2Dimension)
       .group(val2Grouping)
       .x(d3.scale.linear()
-          .domain([0, 200000])
-          .rangeRound([0, 30 * 10])),
+          .domain([0, 201000])
+          .rangeRound([0, 60 * 5])),
 
     barChart()
       .dimension(yelpDimension)
       .group(yelpGrouping)
       .x(d3.scale.linear()
           .domain([0, 5])
-          .rangeRound([0, 20 * 5])),
+          .rangeRound([0, 30 * 3])),
 
     barChart()
       .dimension(reviewsDimension)
       .group(reviewsGrouping)
       .x(d3.scale.linear()
           .domain([0, 1500])
-          .rangeRound([0, 20 * 15]))
+          .rangeRound([0, 30 * 10]))
   ];
 
   // bind charts to dom
