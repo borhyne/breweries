@@ -102,7 +102,7 @@ function initCrossfilter() {
       });
   yelpGrouping = yelpDimension.group(
       function(v) {
-        return v;
+        return Math.floor(v / .5) * .5;
       });
 
   reviewsDimension = filter.dimension(
