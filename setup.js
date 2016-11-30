@@ -10,6 +10,10 @@ var val1Dimension;
 var val1Grouping;
 var val2Dimension;
 var val2Grouping;
+var yelpDimension;
+var yelpGrouping;
+var reviewsDimension;
+var reviewsGrouping;
 var charts;
 var domCharts;
 
@@ -80,7 +84,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v / 5) * 5;
+        return Math.floor(v / 10) * 10;
       });
 
   val2Dimension = filter.dimension(
@@ -89,7 +93,25 @@ function initCrossfilter() {
       });
   val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 500) * 500;
+        return Math.floor(v / 1000) * 1000;
+      });
+
+  yelpDimension = filter.dimension(
+      function(p) {
+        return p.YelpRating;
+      });
+  yelpGrouping = yelpDimension.group(
+      function(v) {
+        return v;
+      });
+
+  reviewsDimension = filter.dimension(
+      function(p) {
+        return p.NumReviews;
+      });
+  reviewsGrouping = reviewsDimension.group(
+      function(v) {
+        return Math.floor(v / 50) * 50;
       });
 
   // initialize charts (helper function in chart.js)
@@ -108,6 +130,20 @@ function initCrossfilter() {
       .x(d3.scale.linear()
           .domain([0, 200000])
           .rangeRound([0, 20 * 20]))
+
+    barChart()
+      .dimension(yelpDimension)
+      .group(yelpGrouping)
+      .x(d3.scale.linear()
+          .domain([0, 5])
+          .rangeRound([0, 10 * 5]))
+
+    barChart()
+      .dimension(reviewsDimension)
+      .group(reviewsGrouping)
+      .x(d3.scale.linear()
+          .domain([0, 1500])
+          .rangeRound([0, 20 * 15]))
   ];
 
   // bind charts to dom
