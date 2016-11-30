@@ -6,9 +6,9 @@ var map;
 var markers = [];
 
 var filter;
-var PDDimension;
+var POPDensity;
 var PDGrouping;
-var MIDimension;
+var MedianIncome;
 var MIGrouping;
 var charts;
 var domCharts;
@@ -74,20 +74,20 @@ function initCrossfilter() {
   filter = crossfilter(points);
 
   // simple dimensions and groupings for major variables
-  PDDimension = filter.dimension(
+  POPDensity = filter.dimension(
       function(p) {
         return p.POPDensity;
       });
-  PDGrouping = PDDimension.group(
+  PDGrouping = POPDensity.group(
       function(v) {
         return Math.floor(v / 5) *5;
       });
 
-  MIDimension = filter.dimension(
+  MedianIncome = filter.dimension(
       function(p) {
         return p.MedianIncome;
       });
-  MIGrouping = MIDimension.group(
+  MIGrouping = MedianIncome.group(
       function(v) {
         return Math.floor(v / 500) * 500;
       });
@@ -96,14 +96,14 @@ function initCrossfilter() {
   // taken directly from crossfilter's example
   charts = [
     barChart()
-      .dimension(PDDimension)
+      .dimension(POPDensity)
       .group(PDGrouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
           .rangeRound([0, 50 * 20])),
 
     barChart()
-      .dimension(MIDimension)
+      .dimension(MedianIncome)
       .group(MIGrouping)
       .x(d3.scale.linear()
           .domain([0, 200000])

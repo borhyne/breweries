@@ -49,11 +49,11 @@ body {
   stroke: #666;
 }
 
-#PDDimension-chart {
+#POPDensity-chart {
   width: 1000px;
 }
 
-#MIDimension-chart {
+#MedianIncome-chart {
   width: 400px;
 }
 
