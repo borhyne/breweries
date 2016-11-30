@@ -135,7 +135,7 @@ function initCrossfilter() {
       .dimension(yelpDimension)
       .group(yelpGrouping)
       .x(d3.scale.linear()
-          .domain([0, 5])
+          .domain([0, 5.5])
           .rangeRound([0, 30 * 3])),
 
     barChart()
