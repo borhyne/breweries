@@ -80,7 +80,7 @@ function initCrossfilter() {
       });
   val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v);
+        return Math.floor(v / 5) * 5;
       });
 
   val2Dimension = filter.dimension(
@@ -89,7 +89,7 @@ function initCrossfilter() {
       });
   val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 25) * 25;
+        return Math.floor(v / 500) * 500;
       });
 
   // initialize charts (helper function in chart.js)
