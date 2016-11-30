@@ -49,15 +49,15 @@ body {
   stroke: #666;
 }
 
-#POPDensity-chart {
-  width: 1000px;
+#val-chart {
+  width: 120px;
 }
 
-#MedianIncome-chart {
-  width: 400px;
+#val2-chart {
+  width: 420px;
 }
 
 #map-div {
-  width: 100%;
-  height: 400px;
+  width: 800px;
+  height: 480px;
 }

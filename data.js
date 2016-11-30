@@ -10,9 +10,9 @@ var points = [
     lat: 36.5858251,
     lng: -79.4213237,
     url: "https://www.yelp.com/biz/2-witches-danville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 386.581572,
+    val1: 386.581572,
     LANDSQMI: 73,
-    MedianIncome: 32931
+    val2: 32931
   },
   {
     Brewery: "American Honor Ale House",
@@ -24,9 +24,9 @@ var points = [
     lat: 35.73538,
     lng: -81.3256,
     url: "https://www.yelp.com/biz/american-honor-ale-house-hickory?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 415.8809,
+    val1: 415.8809,
     LANDSQMI: 69.69,
-    MedianIncome: 37803
+    val2: 37803
   },
   {
     Brewery: "Andrews Brewing Company",
@@ -38,9 +38,9 @@ var points = [
     lat: 35.1988182,
     lng: -83.8126373,
     url: "https://www.yelp.com/biz/andrews-brewing-company-andrews?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 84.67964007,
+    val1: 84.67964007,
     LANDSQMI: 63.23,
-    MedianIncome: 30595
+    val2: 30595
   },
   {
     Brewery: "Annual Cova Beerfest & Food Truck Rodeo",
@@ -52,9 +52,9 @@ var points = [
     lat: 36.6792299,
     lng: -76.02998,
     url: "https://www.yelp.com/biz/annual-cova-beerfest-and-food-truck-rodeo-virginia-beach?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 62.81705935,
+    val1: 62.81705935,
     LANDSQMI: 68.28,
-    MedianIncome: 85037
+    val2: 85037
   },
   {
     Brewery: "Appalachian Mountain Brewery",
@@ -66,9 +66,9 @@ var points = [
     lat: 36.2033386,
     lng: -81.6685507,
     url: "https://www.yelp.com/biz/appalachian-mountain-brewery-boone?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 333.9372087,
+    val1: 333.9372087,
     LANDSQMI: 99,
-    MedianIncome: 27819
+    val2: 27819
   },
   {
     Brewery: "Asheville Brewing Company",
@@ -80,9 +80,9 @@ var points = [
     lat: 35.59172,
     lng: -82.55529,
     url: "https://www.yelp.com/biz/asheville-brewing-company-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Asheville Pizza & Brewing Company",
@@ -94,9 +94,9 @@ var points = [
     lat: 35.622192,
     lng: -82.553698,
     url: "https://www.yelp.com/biz/asheville-pizza-and-brewing-company-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 771.6248757,
+    val1: 771.6248757,
     LANDSQMI: 26.58,
-    MedianIncome: 50058
+    val2: 50058
   },
   {
     Brewery: "Ass Clown Brewing Company",
@@ -108,9 +108,9 @@ var points = [
     lat: 35.4575619,
     lng: -80.8547775,
     url: "https://www.yelp.com/biz/ass-clown-brewing-company-cornelius?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1684.152831,
+    val1: 1684.152831,
     LANDSQMI: 14.48,
-    MedianIncome: 81737
+    val2: 81737
   },
   {
     Brewery: "Aviator Brewing Company",
@@ -122,9 +122,9 @@ var points = [
     lat: 35.61976685,
     lng: -78.80824958,
     url: "https://www.yelp.com/biz/aviator-brewing-company-fuquay-varina-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 401.2691541,
+    val1: 401.2691541,
     LANDSQMI: 96.93,
-    MedianIncome: 66512
+    val2: 66512
   },
   {
     Brewery: "Aviator Brewing Company Tap House",
@@ -136,9 +136,9 @@ var points = [
     lat: 35.5927702,
     lng: -78.79373422,
     url: "https://www.yelp.com/biz/aviator-brewing-company-tap-house-fuquay-varina?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 401.2691541,
+    val1: 401.2691541,
     LANDSQMI: 96.93,
-    MedianIncome: 66512
+    val2: 66512
   },
   {
     Brewery: "Back Bay Brewing",
@@ -150,9 +150,9 @@ var points = [
     lat: 36.83761743,
     lng: -75.98107358,
     url: "https://www.yelp.com/biz/back-bay-brewing-virginia-beach?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2258.017377,
+    val1: 2258.017377,
     LANDSQMI: 18.4,
-    MedianIncome: 59017
+    val2: 59017
   },
   {
     Brewery: "Barking Duck Brewing",
@@ -164,9 +164,9 @@ var points = [
     lat: 35.15247,
     lng: -80.68,
     url: "https://www.yelp.com/biz/barking-duck-brewing-mint-hill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1282.704599,
+    val1: 1282.704599,
     LANDSQMI: 38.7,
-    MedianIncome: 51527
+    val2: 51527
   },
   {
     Brewery: "Basic Brewery",
@@ -178,9 +178,9 @@ var points = [
     lat: 35.31584,
     lng: -82.46088,
     url: "https://www.yelp.com/biz/basic-brewery-hendersonville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 324.9383161,
+    val1: 324.9383161,
     LANDSQMI: 100.6,
-    MedianIncome: 36683
+    val2: 36683
   },
   {
     Brewery: "Bayne Brewing Company",
@@ -192,9 +192,9 @@ var points = [
     lat: 35.47978,
     lng: -80.89107,
     url: "https://www.yelp.com/biz/bayne-brewing-company-cornelius?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1684.152831,
+    val1: 1684.152831,
     LANDSQMI: 14.48,
-    MedianIncome: 81737
+    val2: 81737
   },
   {
     Brewery: "BearWaters Brewing Company",
@@ -206,9 +206,9 @@ var points = [
     lat: 35.50411224,
     lng: -82.99353027,
     url: "https://www.yelp.com/biz/bearwaters-brewing-company-waynesville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 278.0104768,
+    val1: 278.0104768,
     LANDSQMI: 74.51,
-    MedianIncome: 42419
+    val2: 42419
   },
   {
     Brewery: "Beer Army Burger Company",
@@ -220,9 +220,9 @@ var points = [
     lat: 35.10655,
     lng: -77.03896,
     url: "https://www.yelp.com/biz/beer-army-burger-company-new-bern?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 246.4845247,
+    val1: 246.4845247,
     LANDSQMI: 117.33,
-    MedianIncome: 46376
+    val2: 46376
   },
   {
     Brewery: "Beer Durham",
@@ -234,9 +234,9 @@ var points = [
     lat: 36.00046812,
     lng: -78.90343287,
     url: "https://www.yelp.com/biz/beer-durham-durham-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Ben's Tune Up",
@@ -248,9 +248,9 @@ var points = [
     lat: 35.5911832,
     lng: -82.555782,
     url: "https://www.yelp.com/biz/bens-tune-up-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Bhramari Brewhouse",
@@ -262,9 +262,9 @@ var points = [
     lat: 35.59142,
     lng: -82.55211,
     url: "https://www.yelp.com/biz/bhramari-brewhouse-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Big Boss Brewing Company",
@@ -276,9 +276,9 @@ var points = [
     lat: 35.8098229,
     lng: -78.617162,
     url: "https://www.yelp.com/biz/big-boss-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1956.438482,
+    val1: 1956.438482,
     LANDSQMI: 21.57,
-    MedianIncome: 50373
+    val2: 50373
   },
   {
     Brewery: "Big Ugly Brewing",
@@ -290,9 +290,9 @@ var points = [
     lat: 36.6788203,
     lng: -76.22842211,
     url: "https://www.yelp.com/biz/big-ugly-brewing-chesapeake?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 400.9937157,
+    val1: 400.9937157,
     LANDSQMI: 150.81,
-    MedianIncome: 96091
+    val2: 96091
   },
   {
     Brewery: "Bill's Front Porch",
@@ -304,9 +304,9 @@ var points = [
     lat: 34.24181208,
     lng: -77.89198036,
     url: "https://www.yelp.com/biz/bills-front-porch-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2562.762442,
+    val1: 2562.762442,
     LANDSQMI: 14.07,
-    MedianIncome: 34356
+    val2: 34356
   },
   {
     Brewery: "Birds Fly South Ale Project",
@@ -318,9 +318,9 @@ var points = [
     lat: 34.865768,
     lng: -82.415835,
     url: "https://www.yelp.com/biz/birds-fly-south-ale-project-greenville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2466.242027,
+    val1: 2466.242027,
     LANDSQMI: 4.28,
-    MedianIncome: 32068
+    val2: 32068
   },
   {
     Brewery: "Birdsong Brewing",
@@ -332,9 +332,9 @@ var points = [
     lat: 35.23067829,
     lng: -80.82650381,
     url: "https://www.yelp.com/biz/birdsong-brewing-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1685.84842,
+    val1: 1685.84842,
     LANDSQMI: 7.06,
-    MedianIncome: 21087
+    val2: 21087
   },
   {
     Brewery: "BJ's Restaurant & Brewhouse",
@@ -346,9 +346,9 @@ var points = [
     lat: 36.0723737,
     lng: -80.3003323,
     url: "https://www.yelp.com/biz/bjs-restaurant-and-brewhouse-winston-salem?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1789.299152,
+    val1: 1789.299152,
     LANDSQMI: 18.56,
-    MedianIncome: 42289
+    val2: 42289
   },
   {
     Brewery: "BJ's Restaurant & Brewhouse",
@@ -360,9 +360,9 @@ var points = [
     lat: 35.7556705,
     lng: -78.7435144,
     url: "https://www.yelp.com/biz/bjs-restaurant-and-brewhouse-cary?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2039.989399,
+    val1: 2039.989399,
     LANDSQMI: 9.62,
-    MedianIncome: 102038
+    val2: 102038
   },
   {
     Brewery: "Black Mountain Ciderworks & Meadery",
@@ -374,9 +374,9 @@ var points = [
     lat: 35.608307,
     lng: -82.358991,
     url: "https://www.yelp.com/biz/black-mountain-ciderworks-and-meadery-black-mountain-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 132.2033958,
+    val1: 132.2033958,
     LANDSQMI: 99.91,
-    MedianIncome: 42271
+    val2: 42271
   },
   {
     Brewery: "Blind Squirrel Brewery",
@@ -388,9 +388,9 @@ var points = [
     lat: 36.02703538,
     lng: -82.00940298,
     url: "https://www.yelp.com/biz/blind-squirrel-brewery-plumtree?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 59.38713268,
+    val1: 59.38713268,
     LANDSQMI: 159.77,
-    MedianIncome: 36016
+    val2: 36016
   },
   {
     Brewery: "Blind Squirrel Brewery Outpost",
@@ -402,9 +402,9 @@ var points = [
     lat: 35.9171223,
     lng: -82.3503,
     url: "https://www.yelp.com/biz/blind-squirrel-brewery-outpost-burnsville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 57.56902318,
+    val1: 57.56902318,
     LANDSQMI: 291.01,
-    MedianIncome: 39232
+    val2: 39232
   },
   {
     Brewery: "Blowing Rock Brewing",
@@ -416,9 +416,9 @@ var points = [
     lat: 36.13290275,
     lng: -81.6771078,
     url: "https://www.yelp.com/biz/blowing-rock-brewing-blowing-rock?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 117.894966,
+    val1: 117.894966,
     LANDSQMI: 28.94,
-    MedianIncome: 43536
+    val2: 43536
   },
   {
     Brewery: "Blue Blaze Brewing Co",
@@ -430,9 +430,9 @@ var points = [
     lat: 35.24091503,
     lng: -80.86752877,
     url: "https://www.yelp.com/biz/blue-blaze-brewing-co-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1552.514033,
+    val1: 1552.514033,
     LANDSQMI: 22.01,
-    MedianIncome: 28435
+    val2: 28435
   },
   {
     Brewery: "Blue Ghost Brewing",
@@ -444,9 +444,9 @@ var points = [
     lat: 35.43733142,
     lng: -82.53073783,
     url: "https://www.yelp.com/biz/blue-ghost-brewing-fletcher?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 386.2464856,
+    val1: 386.2464856,
     LANDSQMI: 42.7,
-    MedianIncome: 45273
+    val2: 45273
   },
   {
     Brewery: "Blue Ridge Brewery",
@@ -458,9 +458,9 @@ var points = [
     lat: 34.86581,
     lng: -84.325671,
     url: "https://www.yelp.com/biz/blue-ridge-brewery-blue-ridge?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 75.15730413,
+    val1: 75.15730413,
     LANDSQMI: 148.65,
-    MedianIncome: 29751
+    val2: 29751
   },
   {
     Brewery: "Bold Rock Hard Cider - Mills River",
@@ -472,9 +472,9 @@ var points = [
     lat: 35.3771514,
     lng: -82.5617806,
     url: "https://www.yelp.com/biz/bold-rock-hard-cider-mills-river-mills-river?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 298.1477785,
+    val1: 298.1477785,
     LANDSQMI: 23.22,
-    MedianIncome: 60061
+    val2: 60061
   },
   {
     Brewery: "Bombshell Beer Company",
@@ -486,9 +486,9 @@ var points = [
     lat: 35.65822,
     lng: -78.83684,
     url: "https://www.yelp.com/biz/bombshell-beer-company-holly-springs?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 633.2013206,
+    val1: 633.2013206,
     LANDSQMI: 46.37,
-    MedianIncome: 86066
+    val2: 86066
   },
   {
     Brewery: "Bond Brothers Beer Company",
@@ -500,9 +500,9 @@ var points = [
     lat: 35.78818851,
     lng: -78.77811447,
     url: "https://www.yelp.com/biz/bond-brothers-beer-company-cary-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2733.230114,
+    val1: 2733.230114,
     LANDSQMI: 11.72,
-    MedianIncome: 67310
+    val2: 67310
   },
   {
     Brewery: "Boojum Brewing Company",
@@ -514,9 +514,9 @@ var points = [
     lat: 35.4903297,
     lng: -82.987587,
     url: "https://www.yelp.com/biz/boojum-brewing-company-waynesville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 278.0104768,
+    val1: 278.0104768,
     LANDSQMI: 74.51,
-    MedianIncome: 42419
+    val2: 42419
   },
   {
     Brewery: "Booneshine Brewing",
@@ -528,9 +528,9 @@ var points = [
     lat: 36.20125477,
     lng: -81.6706356,
     url: "https://www.yelp.com/biz/booneshine-brewing-boone?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 333.9372087,
+    val1: 333.9372087,
     LANDSQMI: 99,
-    MedianIncome: 27819
+    val2: 27819
   },
   {
     Brewery: "Boylan Bridge Brewpub",
@@ -542,9 +542,9 @@ var points = [
     lat: 35.77858,
     lng: -78.64904,
     url: "https://www.yelp.com/biz/boylan-bridge-brewpub-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 911.3405877,
+    val1: 911.3405877,
     LANDSQMI: 51.61,
-    MedianIncome: 54904
+    val2: 54904
   },
   {
     Brewery: "Brevard Brewing",
@@ -556,9 +556,9 @@ var points = [
     lat: 35.2334061,
     lng: -82.7332153,
     url: "https://www.yelp.com/biz/brevard-brewing-brevard?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 153.9665441,
+    val1: 153.9665441,
     LANDSQMI: 125.66,
-    MedianIncome: 40732
+    val2: 40732
   },
   {
     Brewery: "Brew Thru Outlet",
@@ -570,9 +570,9 @@ var points = [
     lat: 36.049242,
     lng: -75.681674,
     url: "https://www.yelp.com/biz/brew-thru-outlet-kill-devil-hills?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1174.831907,
+    val1: 1174.831907,
     LANDSQMI: 9.25,
-    MedianIncome: 53864
+    val2: 53864
   },
   {
     Brewery: "Brewery 85",
@@ -584,9 +584,9 @@ var points = [
     lat: 34.8043512,
     lng: -82.3496308,
     url: "https://www.yelp.com/biz/brewery-85-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1197.355504,
+    val1: 1197.355504,
     LANDSQMI: 28.8,
-    MedianIncome: 48809
+    val2: 48809
   },
   {
     Brewery: "Brewery 99",
@@ -598,9 +598,9 @@ var points = [
     lat: 35.108064,
     lng: -77.040954,
     url: "https://www.yelp.com/biz/brewery-99-new-bern-4?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 246.4845247,
+    val1: 246.4845247,
     LANDSQMI: 117.33,
-    MedianIncome: 46376
+    val2: 46376
   },
   {
     Brewery: "Brewvival",
@@ -612,9 +612,9 @@ var points = [
     lat: 32.873542,
     lng: -79.9722,
     url: "https://www.yelp.com/biz/brewvival-north-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1771.012457,
+    val1: 1771.012457,
     LANDSQMI: 14.87,
-    MedianIncome: 24650
+    val2: 24650
   },
   {
     Brewery: "Bristol Brewery",
@@ -626,9 +626,9 @@ var points = [
     lat: 36.5958348,
     lng: -82.1845006,
     url: "https://www.yelp.com/biz/bristol-brewery-bristol?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1652.130305,
+    val1: 1652.130305,
     LANDSQMI: 10.36,
-    MedianIncome: 31977
+    val2: 31977
   },
   {
     Brewery: "Broomtail Craft Brewery",
@@ -640,9 +640,9 @@ var points = [
     lat: 34.25972,
     lng: -77.84678,
     url: "https://www.yelp.com/biz/broomtail-craft-brewery-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1211.377011,
+    val1: 1211.377011,
     LANDSQMI: 24.07,
-    MedianIncome: 51580
+    val2: 51580
   },
   {
     Brewery: "Brown Truck Brewery",
@@ -654,9 +654,9 @@ var points = [
     lat: 35.9715599,
     lng: -80.01611,
     url: "https://www.yelp.com/biz/brown-truck-brewery-high-point?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1816.921948,
+    val1: 1816.921948,
     LANDSQMI: 13.17,
-    MedianIncome: 39867
+    val2: 39867
   },
   {
     Brewery: "Brueprint Brewing Company",
@@ -668,9 +668,9 @@ var points = [
     lat: 35.71226282,
     lng: -78.85184648,
     url: "https://www.yelp.com/biz/brueprint-brewing-company-apex?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1088.130778,
+    val1: 1088.130778,
     LANDSQMI: 28.33,
-    MedianIncome: 95816
+    val2: 95816
   },
   {
     Brewery: "Bull City Burger and Brewery",
@@ -682,9 +682,9 @@ var points = [
     lat: 35.9954377,
     lng: -78.8999432,
     url: "https://www.yelp.com/biz/bull-city-burger-and-brewery-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Bull City Ciderworks",
@@ -696,9 +696,9 @@ var points = [
     lat: 35.82345273,
     lng: -80.25410645,
     url: "https://www.yelp.com/biz/bull-city-ciderworks-lexington-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 273.664493,
+    val1: 273.664493,
     LANDSQMI: 145.39,
-    MedianIncome: 37244
+    val2: 37244
   },
   {
     Brewery: "Burial Beer",
@@ -710,9 +710,9 @@ var points = [
     lat: 35.588049,
     lng: -82.553796,
     url: "https://www.yelp.com/biz/burial-beer-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Butchers & Brew",
@@ -724,9 +724,9 @@ var points = [
     lat: 36.69149367,
     lng: -79.87438504,
     url: "https://www.yelp.com/biz/butchers-and-brew-martinsville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 215.2137991,
+    val1: 215.2137991,
     LANDSQMI: 151.69,
-    MedianIncome: 32566
+    val2: 32566
   },
   {
     Brewery: "Cabarrus Brewing Company",
@@ -738,9 +738,9 @@ var points = [
     lat: 35.4156528,
     lng: -80.6062991,
     url: "https://www.yelp.com/biz/cabarrus-brewing-company-concord?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 808.0502287,
+    val1: 808.0502287,
     LANDSQMI: 68.6,
-    MedianIncome: 59257
+    val2: 59257
   },
   {
     Brewery: "Calaboose Cellars",
@@ -752,9 +752,9 @@ var points = [
     lat: 35.1992493,
     lng: -83.8127975,
     url: "https://www.yelp.com/biz/calaboose-cellars-andrews?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 84.67964007,
+    val1: 84.67964007,
     LANDSQMI: 63.23,
-    MedianIncome: 30595
+    val2: 30595
   },
   {
     Brewery: "Carolina Bauernhaus Ales",
@@ -766,9 +766,9 @@ var points = [
     lat: 34.50562,
     lng: -82.65196,
     url: "https://www.yelp.com/biz/carolina-bauernhaus-ales-anderson?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 573.9735249,
+    val1: 573.9735249,
     LANDSQMI: 47.98,
-    MedianIncome: 39205
+    val2: 39205
   },
   {
     Brewery: "Carolina Brewery",
@@ -780,9 +780,9 @@ var points = [
     lat: 35.9106712,
     lng: -79.062767,
     url: "https://www.yelp.com/biz/carolina-brewery-chapel-hill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 389.0460947,
+    val1: 389.0460947,
     LANDSQMI: 92.89,
-    MedianIncome: 69349
+    val2: 69349
   },
   {
     Brewery: "Carolina Brewery & Grill",
@@ -794,9 +794,9 @@ var points = [
     lat: 35.74365,
     lng: -79.1646899,
     url: "https://www.yelp.com/biz/carolina-brewery-and-grill-pittsboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 107.7410761,
+    val1: 107.7410761,
     LANDSQMI: 169.91,
-    MedianIncome: 62474
+    val2: 62474
   },
   {
     Brewery: "Carolina Brewing Company",
@@ -808,9 +808,9 @@ var points = [
     lat: 35.65649,
     lng: -78.85474,
     url: "https://www.yelp.com/biz/carolina-brewing-company-holly-springs?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 633.2013206,
+    val1: 633.2013206,
     LANDSQMI: 46.37,
-    MedianIncome: 86066
+    val2: 86066
   },
   {
     Brewery: "Catawba Brewing",
@@ -822,9 +822,9 @@ var points = [
     lat: 35.5891,
     lng: -82.5534799,
     url: "https://www.yelp.com/biz/catawba-brewing-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Catawba Brewing Co",
@@ -836,9 +836,9 @@ var points = [
     lat: 35.7446785,
     lng: -81.6856995,
     url: "https://www.yelp.com/biz/catawba-brewing-co-morganton?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 172.9155602,
+    val1: 172.9155602,
     LANDSQMI: 318.05,
-    MedianIncome: 37295
+    val2: 37295
   },
   {
     Brewery: "Catawba Brewing Co - Tasting Rooms",
@@ -850,9 +850,9 @@ var points = [
     lat: 35.5660215,
     lng: -82.5398124,
     url: "https://www.yelp.com/biz/catawba-brewing-co-tasting-rooms-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Chaos Mountain Brewery",
@@ -864,9 +864,9 @@ var points = [
     lat: 37.09552,
     lng: -80.0515099,
     url: "https://www.yelp.com/biz/chaos-mountain-brewery-callaway?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 39.69994273,
+    val1: 39.69994273,
     LANDSQMI: 56.17,
-    MedianIncome: 47273
+    val2: 47273
   },
   {
     Brewery: "Charleston Brews Cruise",
@@ -878,9 +878,9 @@ var points = [
     lat: 32.78995,
     lng: -79.93674,
     url: "https://www.yelp.com/biz/charleston-brews-cruise-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 7023.812095,
+    val1: 7023.812095,
     LANDSQMI: 1.55,
-    MedianIncome: 54405
+    val2: 54405
   },
   {
     Brewery: "Check Six Brewing Company",
@@ -892,9 +892,9 @@ var points = [
     lat: 33.95212,
     lng: -78.04419,
     url: "https://www.yelp.com/biz/check-six-brewing-company-southport?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 212.9366667,
+    val1: 212.9366667,
     LANDSQMI: 75.73,
-    MedianIncome: 50079
+    val2: 50079
   },
   {
     Brewery: "Clouds Brewing",
@@ -906,9 +906,9 @@ var points = [
     lat: 35.9998819,
     lng: -78.910101,
     url: "https://www.yelp.com/biz/clouds-brewing-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Clouds Brewing",
@@ -920,9 +920,9 @@ var points = [
     lat: 35.78239,
     lng: -78.64537,
     url: "https://www.yelp.com/biz/clouds-brewing-raleigh-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 911.3405877,
+    val1: 911.3405877,
     LANDSQMI: 51.61,
-    MedianIncome: 54904
+    val2: 54904
   },
   {
     Brewery: "COAST Brewing Company",
@@ -934,9 +934,9 @@ var points = [
     lat: 32.8734948,
     lng: -79.9711949,
     url: "https://www.yelp.com/biz/coast-brewing-company-north-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1771.012457,
+    val1: 1771.012457,
     LANDSQMI: 14.87,
-    MedianIncome: 24650
+    val2: 24650
   },
   {
     Brewery: "Coastal Empire Beer",
@@ -948,9 +948,9 @@ var points = [
     lat: 32.0518,
     lng: -81.12407,
     url: "https://www.yelp.com/biz/coastal-empire-beer-savannah?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1238.969738,
+    val1: 1238.969738,
     LANDSQMI: 30.03,
-    MedianIncome: 43051
+    val2: 43051
   },
   {
     Brewery: "Coelacanth Brewing",
@@ -962,9 +962,9 @@ var points = [
     lat: 36.87154565,
     lng: -76.29519832,
     url: "https://www.yelp.com/biz/coelacanth-brewing-norfolk?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5617.312056,
+    val1: 5617.312056,
     LANDSQMI: 0.8,
-    MedianIncome: 40513
+    val2: 40513
   },
   {
     Brewery: "Compass Rose Brewery",
@@ -976,9 +976,9 @@ var points = [
     lat: 35.8838806,
     lng: -78.5827026,
     url: "https://www.yelp.com/biz/compass-rose-brewery-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2180.978716,
+    val1: 2180.978716,
     LANDSQMI: 19.33,
-    MedianIncome: 78335
+    val2: 78335
   },
   {
     Brewery: "Conquest Brewing",
@@ -990,9 +990,9 @@ var points = [
     lat: 33.96994844,
     lng: -81.02519858,
     url: "https://www.yelp.com/biz/conquest-brewing-columbia?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1803.262807,
+    val1: 1803.262807,
     LANDSQMI: 11.42,
-    MedianIncome: 29557
+    val2: 29557
   },
   {
     Brewery: "Cooper River Brewing",
@@ -1004,9 +1004,9 @@ var points = [
     lat: 32.81577,
     lng: -79.95533,
     url: "https://www.yelp.com/biz/cooper-river-brewing-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1771.012457,
+    val1: 1771.012457,
     LANDSQMI: 14.87,
-    MedianIncome: 24650
+    val2: 24650
   },
   {
     Brewery: "Copper Ale Station",
@@ -1018,9 +1018,9 @@ var points = [
     lat: 34.98917423,
     lng: -84.36991889,
     url: "https://www.yelp.com/biz/copper-ale-station-copperhill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 31.88528548,
+    val1: 31.88528548,
     LANDSQMI: 75.36,
-    MedianIncome: 42612
+    val2: 42612
   },
   {
     Brewery: "Craft Room Growlers",
@@ -1032,9 +1032,9 @@ var points = [
     lat: 35.4878311,
     lng: -82.5248032,
     url: "https://www.yelp.com/biz/craft-room-growlers-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Crank Arm Brewing Company",
@@ -1046,9 +1046,9 @@ var points = [
     lat: 35.7755269,
     lng: -78.6440439,
     url: "https://www.yelp.com/biz/crank-arm-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5266.52762,
+    val1: 5266.52762,
     LANDSQMI: 1.79,
-    MedianIncome: 23554
+    val2: 23554
   },
   {
     Brewery: "Crawford & Son",
@@ -1060,9 +1060,9 @@ var points = [
     lat: 35.78882,
     lng: -78.63405,
     url: "https://www.yelp.com/biz/crawford-and-son-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1956.438482,
+    val1: 1956.438482,
     LANDSQMI: 21.57,
-    MedianIncome: 50373
+    val2: 50373
   },
   {
     Brewery: "Creek Bottom Brewing",
@@ -1074,9 +1074,9 @@ var points = [
     lat: 36.666476,
     lng: -80.920657,
     url: "https://www.yelp.com/biz/creek-bottom-brewing-galax?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 124.8212322,
+    val1: 124.8212322,
     LANDSQMI: 144.17,
-    MedianIncome: 31489
+    val2: 31489
   },
   {
     Brewery: "Currahee Brewing Company",
@@ -1088,9 +1088,9 @@ var points = [
     lat: 35.18772422,
     lng: -83.37247947,
     url: "https://www.yelp.com/biz/currahee-brewing-company-franklin?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 89.75793445,
+    val1: 89.75793445,
     LANDSQMI: 301.25,
-    MedianIncome: 37066
+    val2: 37066
   },
   {
     Brewery: "D9 Brewing Company",
@@ -1102,9 +1102,9 @@ var points = [
     lat: 35.46082,
     lng: -80.84707,
     url: "https://www.yelp.com/biz/d9-brewing-company-cornelius-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1684.152831,
+    val1: 1684.152831,
     LANDSQMI: 14.48,
-    MedianIncome: 81737
+    val2: 81737
   },
   {
     Brewery: "Davidson Street Public House",
@@ -1116,9 +1116,9 @@ var points = [
     lat: 35.2472801,
     lng: -80.804863,
     url: "https://www.yelp.com/biz/davidson-street-public-house-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3715.902231,
+    val1: 3715.902231,
     LANDSQMI: 11.82,
-    MedianIncome: 35310
+    val2: 35310
   },
   {
     Brewery: "Deep River Brewing Co.",
@@ -1130,9 +1130,9 @@ var points = [
     lat: 35.659335,
     lng: -78.46686,
     url: "https://www.yelp.com/biz/deep-river-brewing-co-clayton?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 497.9518766,
+    val1: 497.9518766,
     LANDSQMI: 73.01,
-    MedianIncome: 57581
+    val2: 57581
   },
   {
     Brewery: "Depot Street Brewing",
@@ -1144,9 +1144,9 @@ var points = [
     lat: 36.2860298,
     lng: -82.4816589,
     url: "https://www.yelp.com/biz/depot-street-brewing-jonesborough?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 214.1900164,
+    val1: 214.1900164,
     LANDSQMI: 128.79,
-    MedianIncome: 47647
+    val2: 47647
   },
   {
     Brewery: "Doc Collier Moonshine",
@@ -1158,9 +1158,9 @@ var points = [
     lat: 35.71405396,
     lng: -83.51083484,
     url: "https://www.yelp.com/biz/doc-collier-moonshine-gatlinburg?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 25.1803353,
+    val1: 25.1803353,
     LANDSQMI: 210.01,
-    MedianIncome: 40117
+    val2: 40117
   },
   {
     Brewery: "Double Barley Brewing",
@@ -1172,9 +1172,9 @@ var points = [
     lat: 35.56847763,
     lng: -78.33999162,
     url: "https://www.yelp.com/biz/double-barley-brewing-smithfield?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 220.0577663,
+    val1: 220.0577663,
     LANDSQMI: 104.11,
-    MedianIncome: 41386
+    val2: 41386
   },
   {
     Brewery: "Draft Line Brewing",
@@ -1186,9 +1186,9 @@ var points = [
     lat: 35.5958962,
     lng: -78.797432,
     url: "https://www.yelp.com/biz/draft-line-brewing-fuquay-varina?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 401.2691541,
+    val1: 401.2691541,
     LANDSQMI: 96.93,
-    MedianIncome: 66512
+    val2: 66512
   },
   {
     Brewery: "Dry County Brewing Company",
@@ -1200,9 +1200,9 @@ var points = [
     lat: 35.91583,
     lng: -82.06356,
     url: "https://www.yelp.com/biz/dry-county-brewing-company-spruce-pine-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 156.1018714,
+    val1: 156.1018714,
     LANDSQMI: 68.15,
-    MedianIncome: 40000
+    val2: 40000
   },
   {
     Brewery: "Duck-Rabbit Brewery",
@@ -1214,9 +1214,9 @@ var points = [
     lat: 35.6002998,
     lng: -77.596817,
     url: "https://www.yelp.com/biz/duck-rabbit-brewery-farmville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 117.9808779,
+    val1: 117.9808779,
     LANDSQMI: 76.89,
-    MedianIncome: 36736
+    val2: 36736
   },
   {
     Brewery: "Dueling Sloths Brewing Company",
@@ -1228,9 +1228,9 @@ var points = [
     lat: 35.9902954,
     lng: -78.8888245,
     url: "https://www.yelp.com/biz/dueling-sloths-brewing-company-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Durty Bull Brewing Company",
@@ -1242,9 +1242,9 @@ var points = [
     lat: 36.00122,
     lng: -78.89818,
     url: "https://www.yelp.com/biz/durty-bull-brewing-company-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Eagle Creek Brewing Company",
@@ -1256,9 +1256,9 @@ var points = [
     lat: 32.448101,
     lng: -81.7799377,
     url: "https://www.yelp.com/biz/eagle-creek-brewing-company-statesboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 281.886877,
+    val1: 281.886877,
     LANDSQMI: 145.94,
-    MedianIncome: 27908
+    val2: 27908
   },
   {
     Brewery: "Ecusta Brewing",
@@ -1270,9 +1270,9 @@ var points = [
     lat: 35.2736422,
     lng: -82.7051388,
     url: "https://www.yelp.com/biz/ecusta-brewing-pisgah-forest?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 82.13605881,
+    val1: 82.13605881,
     LANDSQMI: 82.95,
-    MedianIncome: 41315
+    val2: 41315
   },
   {
     Brewery: "Ecusta Brewing On Main",
@@ -1284,9 +1284,9 @@ var points = [
     lat: 35.23318,
     lng: -82.73379,
     url: "https://www.yelp.com/biz/ecusta-brewing-on-main-brevard?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 153.9665441,
+    val1: 153.9665441,
     LANDSQMI: 125.66,
-    MedianIncome: 40732
+    val2: 40732
   },
   {
     Brewery: "Fainting Goat Brewing Company",
@@ -1298,9 +1298,9 @@ var points = [
     lat: 35.58136879,
     lng: -78.79995318,
     url: "https://www.yelp.com/biz/fainting-goat-brewing-company-fuquay-varina-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 401.2691541,
+    val1: 401.2691541,
     LANDSQMI: 96.93,
-    MedianIncome: 66512
+    val2: 66512
   },
   {
     Brewery: "Fannin Brewing Company",
@@ -1312,9 +1312,9 @@ var points = [
     lat: 34.87066595,
     lng: -84.31761956,
     url: "https://www.yelp.com/biz/fannin-brewing-company-blue-ridge?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 75.15730413,
+    val1: 75.15730413,
     LANDSQMI: 148.65,
-    MedianIncome: 29751
+    val2: 29751
   },
   {
     Brewery: "Flat Rock Ciderworks",
@@ -1326,8 +1326,8 @@ var points = [
     lat: 35.3159659,
     lng: -82.46041104,
     url: "https://www.yelp.com/biz/flat-rock-ciderworks-hendersonville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 324.9383161l    LANDSQMI: 100.6,
-    MedianIncome: 36683
+    val1: 324.9383161l    LANDSQMI: 100.6,
+    val2: 36683
   },
   {
     Brewery: "Flat Top Brewing Company",
@@ -1339,8 +1339,8 @@ var points = [
     lat: 36.1662788,
     lng: -81.8641129,
     url: "https://www.yelp.com/biz/flat-top-brewing-company-banner-elk?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 95.09763778l    LANDSQMI: 65.71,
-    MedianIncome: 47992
+    val1: 95.09763778l    LANDSQMI: 65.71,
+    val2: 47992
   },
   {
     Brewery: "Flytrap Brewing",
@@ -1352,9 +1352,9 @@ var points = [
     lat: 34.2403488,
     lng: -77.9454575,
     url: "https://www.yelp.com/biz/flytrap-brewing-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "Fonta Flora Brewery",
@@ -1366,9 +1366,9 @@ var points = [
     lat: 35.7478209,
     lng: -81.6914461,
     url: "https://www.yelp.com/biz/fonta-flora-brewery-morganton?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 172.9155602,
+    val1: 172.9155602,
     LANDSQMI: 318.05,
-    MedianIncome: 37295
+    val2: 37295
   },
   {
     Brewery: "Foothills Brewing",
@@ -1380,9 +1380,9 @@ var points = [
     lat: 36.04536,
     lng: -80.3232,
     url: "https://www.yelp.com/biz/foothills-brewing-winston-salem-5?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1789.299152,
+    val1: 1789.299152,
     LANDSQMI: 18.56,
-    MedianIncome: 42289
+    val2: 42289
   },
   {
     Brewery: "Foothills Brewing",
@@ -1394,9 +1394,9 @@ var points = [
     lat: 36.09756423,
     lng: -80.25090078,
     url: "https://www.yelp.com/biz/foothills-brewing-winston-salem-4?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1481.344891,
+    val1: 1481.344891,
     LANDSQMI: 12.76,
-    MedianIncome: 24350
+    val2: 24350
   },
   {
     Brewery: "Fortnight Brewing Company",
@@ -1408,9 +1408,9 @@ var points = [
     lat: 35.776575,
     lng: -78.802209,
     url: "https://www.yelp.com/biz/fortnight-brewing-company-cary?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2733.230114,
+    val1: 2733.230114,
     LANDSQMI: 11.72,
-    MedianIncome: 67310
+    val2: 67310
   },
   {
     Brewery: "Four Saints Brewing Company",
@@ -1422,9 +1422,9 @@ var points = [
     lat: 35.7040482,
     lng: -79.8147278,
     url: "https://www.yelp.com/biz/four-saints-brewing-company-asheboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 964.1395612,
+    val1: 964.1395612,
     LANDSQMI: 21.89,
-    MedianIncome: 29582
+    val2: 29582
   },
   {
     Brewery: "Free Range Brewing",
@@ -1436,9 +1436,9 @@ var points = [
     lat: 35.2405352,
     lng: -80.8132754,
     url: "https://www.yelp.com/biz/free-range-brewing-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3715.902231,
+    val1: 3715.902231,
     LANDSQMI: 11.82,
-    MedianIncome: 35310
+    val2: 35310
   },
   {
     Brewery: "Freehouse Brewery",
@@ -1450,9 +1450,9 @@ var points = [
     lat: 32.8423228,
     lng: -80.0022025,
     url: "https://www.yelp.com/biz/freehouse-brewery-north-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1771.012457,
+    val1: 1771.012457,
     LANDSQMI: 14.87,
-    MedianIncome: 24650
+    val2: 24650
   },
   {
     Brewery: "French Broad Brewing Company",
@@ -1464,9 +1464,9 @@ var points = [
     lat: 35.56641,
     lng: -82.53792,
     url: "https://www.yelp.com/biz/french-broad-brewing-company-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Frog Level Brewing Company",
@@ -1478,9 +1478,9 @@ var points = [
     lat: 35.49345779,
     lng: -82.99100494,
     url: "https://www.yelp.com/biz/frog-level-brewing-company-waynesville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 278.0104768,
+    val1: 278.0104768,
     LANDSQMI: 74.51,
-    MedianIncome: 42419
+    val2: 42419
   },
   {
     Brewery: "Front Street Brewery",
@@ -1492,9 +1492,9 @@ var points = [
     lat: 34.23577391,
     lng: -77.94908106,
     url: "https://www.yelp.com/biz/front-street-brewery-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "Frothy Beard Brewing",
@@ -1506,9 +1506,9 @@ var points = [
     lat: 32.92384338,
     lng: -80.07624054,
     url: "https://www.yelp.com/biz/frothy-beard-brewing-north-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1745.569497,
+    val1: 1745.569497,
     LANDSQMI: 13.49,
-    MedianIncome: 42190
+    val2: 42190
   },
   {
     Brewery: "Full Spectrum Brewing",
@@ -1520,9 +1520,9 @@ var points = [
     lat: 35.03705,
     lng: -80.9614299,
     url: "https://www.yelp.com/biz/full-spectrum-brewing-fort-mill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1316.968194,
+    val1: 1316.968194,
     LANDSQMI: 19.01,
-    MedianIncome: 94463
+    val2: 94463
   },
   {
     Brewery: "Fullsteam Brewery",
@@ -1534,9 +1534,9 @@ var points = [
     lat: 36.00313555,
     lng: -78.89982142,
     url: "https://www.yelp.com/biz/fullsteam-brewery-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Funkatorium",
@@ -1548,9 +1548,9 @@ var points = [
     lat: 35.5891991,
     lng: -82.5552216,
     url: "https://www.yelp.com/biz/funkatorium-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Gatlinburg Brewing Company",
@@ -1562,9 +1562,9 @@ var points = [
     lat: 35.7267,
     lng: -83.47252,
     url: "https://www.yelp.com/biz/gatlinburg-brewing-company-gatlinburg?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 25.1803353,
+    val1: 25.1803353,
     LANDSQMI: 210.01,
-    MedianIncome: 40117
+    val2: 40117
   },
   {
     Brewery: "Ghost Monkey Brewery",
@@ -1576,9 +1576,9 @@ var points = [
     lat: 32.83557,
     lng: -79.87372,
     url: "https://www.yelp.com/biz/ghost-monkey-brewery-mount-pleasant?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1467.45446,
+    val1: 1467.45446,
     LANDSQMI: 29.74,
-    MedianIncome: 68721
+    val2: 68721
   },
   {
     Brewery: "Ghostface Brewing",
@@ -1590,9 +1590,9 @@ var points = [
     lat: 35.58009,
     lng: -80.80454,
     url: "https://www.yelp.com/biz/ghostface-brewing-mooresville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 465.5857941,
+    val1: 465.5857941,
     LANDSQMI: 73.75,
-    MedianIncome: 53157
+    val2: 53157
   },
   {
     Brewery: "Gibb's Hundred Brewing Company",
@@ -1604,9 +1604,9 @@ var points = [
     lat: 36.0658493,
     lng: -79.7917709,
     url: "https://www.yelp.com/biz/gibbs-hundred-brewing-company-greensboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 813.4138265,
+    val1: 813.4138265,
     LANDSQMI: 69.41,
-    MedianIncome: 37548
+    val2: 37548
   },
   {
     Brewery: "Gizmo Brew Works",
@@ -1618,9 +1618,9 @@ var points = [
     lat: 35.89645708,
     lng: -78.7444806,
     url: "https://www.yelp.com/biz/gizmo-brew-works-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1808.227962,
+    val1: 1808.227962,
     LANDSQMI: 8.41,
-    MedianIncome: 78902
+    val2: 78902
   },
   {
     Brewery: "Good Hops Brewing",
@@ -1632,9 +1632,9 @@ var points = [
     lat: 34.04195571,
     lng: -77.90474061,
     url: "https://www.yelp.com/biz/good-hops-brewing-carolina-beach-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1173.119556,
+    val1: 1173.119556,
     LANDSQMI: 5.14,
-    MedianIncome: 61545
+    val2: 61545
   },
   {
     Brewery: "Gordon Biersch",
@@ -1646,9 +1646,9 @@ var points = [
     lat: 33.66879,
     lng: -78.93902,
     url: "https://www.yelp.com/biz/gordon-biersch-myrtle-beach-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1139.099262,
+    val1: 1139.099262,
     LANDSQMI: 23.7,
-    MedianIncome: 35352
+    val2: 35352
   },
   {
     Brewery: "Gordon Biersch Brewery Restaurant",
@@ -1660,9 +1660,9 @@ var points = [
     lat: 36.84322,
     lng: -76.13459,
     url: "https://www.yelp.com/biz/gordon-biersch-brewery-restaurant-virginia-beach?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5292.483788,
+    val1: 5292.483788,
     LANDSQMI: 11.71,
-    MedianIncome: 56617
+    val2: 56617
   },
   {
     Brewery: "Granite Falls Brewing Company",
@@ -1674,9 +1674,9 @@ var points = [
     lat: 35.79476972,
     lng: -81.43006209,
     url: "https://www.yelp.com/biz/granite-falls-brewing-company-granite-falls?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 334.0061564,
+    val1: 334.0061564,
     LANDSQMI: 60,
-    MedianIncome: 41200
+    val2: 41200
   },
   {
     Brewery: "Grape & Grains",
@@ -1688,9 +1688,9 @@ var points = [
     lat: 34.8058891,
     lng: -82.3781586,
     url: "https://www.yelp.com/biz/grape-and-grains-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1345.40215,
+    val1: 1345.40215,
     LANDSQMI: 25.58,
-    MedianIncome: 41333
+    val2: 41333
   },
   {
     Brewery: "Green Flash Brewery",
@@ -1702,9 +1702,9 @@ var points = [
     lat: 36.77657837,
     lng: -76.00607172,
     url: "https://www.yelp.com/biz/green-flash-brewery-virginia-beach-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1969.54435,
+    val1: 1969.54435,
     LANDSQMI: 30.61,
-    MedianIncome: 64721
+    val2: 64721
   },
   {
     Brewery: "Green Man Brewery",
@@ -1716,9 +1716,9 @@ var points = [
     lat: 35.5887489,
     lng: -82.5530014,
     url: "https://www.yelp.com/biz/green-man-brewery-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Green River Brew Depot",
@@ -1730,9 +1730,9 @@ var points = [
     lat: 35.23652,
     lng: -82.3481,
     url: "https://www.yelp.com/biz/green-river-brew-depot-saluda?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 60.63528199,
+    val1: 60.63528199,
     LANDSQMI: 55.71,
-    MedianIncome: 48359
+    val2: 48359
   },
   {
     Brewery: "Greenville Brew Tours",
@@ -1744,9 +1744,9 @@ var points = [
     lat: 34.8505552,
     lng: -82.394,
     url: "https://www.yelp.com/biz/greenville-brew-tours-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2466.242027,
+    val1: 2466.242027,
     LANDSQMI: 4.28,
-    MedianIncome: 32068
+    val2: 32068
   },
   {
     Brewery: "Grumpy Old Men Brewing",
@@ -1758,9 +1758,9 @@ var points = [
     lat: 34.8581696,
     lng: -84.3298874,
     url: "https://www.yelp.com/biz/grumpy-old-men-brewing-blue-ridge?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 75.15730413,
+    val1: 75.15730413,
     LANDSQMI: 148.65,
-    MedianIncome: 29751
+    val2: 29751
   },
   {
     Brewery: "Haw River Farmhouse Ales",
@@ -1772,9 +1772,9 @@ var points = [
     lat: 35.9474106,
     lng: -79.3213272,
     url: "https://www.yelp.com/biz/haw-river-farmhouse-ales-saxapahaw-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2123.651769,
+    val1: 2123.651769,
     LANDSQMI: 0.06,
-    MedianIncome: 5
+    val2: 5
   },
   {
     Brewery: "Heinzelmannchen Brewery",
@@ -1786,9 +1786,9 @@ var points = [
     lat: 35.3739737,
     lng: -83.2220192,
     url: "https://www.yelp.com/biz/heinzelmannchen-brewery-sylva?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 150.1423761,
+    val1: 150.1423761,
     LANDSQMI: 107.3,
-    MedianIncome: 41446
+    val2: 41446
   },
   {
     Brewery: "Heist Brewery",
@@ -1800,9 +1800,9 @@ var points = [
     lat: 35.24531,
     lng: -80.80956,
     url: "https://www.yelp.com/biz/heist-brewery-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3715.902231,
+    val1: 3715.902231,
     LANDSQMI: 11.82,
-    MedianIncome: 35310
+    val2: 35310
   },
   {
     Brewery: "Hickory Nut Gorge Brewery",
@@ -1814,9 +1814,9 @@ var points = [
     lat: 35.44027,
     lng: -82.2499799,
     url: "https://www.yelp.com/biz/hickory-nut-gorge-brewery-chimney-rock?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 35.94104064,
+    val1: 35.94104064,
     LANDSQMI: 3.17,
-    MedianIncome: 39625
+    val2: 39625
   },
   {
     Brewery: "High Branch Brewing",
@@ -1828,9 +1828,9 @@ var points = [
     lat: 35.4150032,
     lng: -80.6027893,
     url: "https://www.yelp.com/biz/high-branch-brewing-concord-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 808.0502287,
+    val1: 808.0502287,
     LANDSQMI: 68.6,
-    MedianIncome: 59257
+    val2: 59257
   },
   {
     Brewery: "Highland Brewing Company",
@@ -1842,9 +1842,9 @@ var points = [
     lat: 35.57174,
     lng: -82.5014,
     url: "https://www.yelp.com/biz/highland-brewing-company-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Hilton Head Brewing",
@@ -1856,9 +1856,9 @@ var points = [
     lat: 32.15457,
     lng: -80.76464,
     url: "https://www.yelp.com/biz/hilton-head-brewing-hilton-head-island?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 780.829473,
+    val1: 780.829473,
     LANDSQMI: 20.63,
-    MedianIncome: 70079
+    val2: 70079
   },
   {
     Brewery: "Hilton Head Brewing Company",
@@ -1870,9 +1870,9 @@ var points = [
     lat: 32.2221107,
     lng: -80.7044373,
     url: "https://www.yelp.com/biz/hilton-head-brewing-company-hilton-head-island-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 779.1252411,
+    val1: 779.1252411,
     LANDSQMI: 30.47,
-    MedianIncome: 71124
+    val2: 71124
   },
   {
     Brewery: "Hilton Tavern Brewing Company",
@@ -1884,9 +1884,9 @@ var points = [
     lat: 37.02958219,
     lng: -76.45725527,
     url: "https://www.yelp.com/biz/hilton-tavern-brewing-company-newport-news?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3362.477059,
+    val1: 3362.477059,
     LANDSQMI: 7.47,
-    MedianIncome: 50068
+    val2: 50068
   },
   {
     Brewery: "Hi-Wire Brewing",
@@ -1898,9 +1898,9 @@ var points = [
     lat: 35.5911984,
     lng: -82.5559403,
     url: "https://www.yelp.com/biz/hi-wire-brewing-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Hi-Wire Brewing Big Top",
@@ -1912,9 +1912,9 @@ var points = [
     lat: 35.57047,
     lng: -82.54568,
     url: "https://www.yelp.com/biz/hi-wire-brewing-big-top-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Holy City Brewing",
@@ -1926,9 +1926,9 @@ var points = [
     lat: 32.8536453,
     lng: -80.0029678,
     url: "https://www.yelp.com/biz/holy-city-brewing-north-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1771.012457,
+    val1: 1771.012457,
     LANDSQMI: 14.87,
-    MedianIncome: 24650
+    val2: 24650
   },
   {
     Brewery: "Homegrown Brewhouse",
@@ -1940,9 +1940,9 @@ var points = [
     lat: 33.0186123,
     lng: -80.1758397,
     url: "https://www.yelp.com/biz/homegrown-brewhouse-summerville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 493.2017633,
+    val1: 493.2017633,
     LANDSQMI: 135.3,
-    MedianIncome: 51814
+    val2: 51814
   },
   {
     Brewery: "Hoppy Trout Brewing Company",
@@ -1954,9 +1954,9 @@ var points = [
     lat: 35.20055395,
     lng: -83.82658775,
     url: "https://www.yelp.com/biz/hoppy-trout-brewing-company-andrews-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 84.67964007,
+    val1: 84.67964007,
     LANDSQMI: 63.23,
-    MedianIncome: 30595
+    val2: 30595
   },
   {
     Brewery: "Howard Brewing",
@@ -1968,9 +1968,9 @@ var points = [
     lat: 35.91386,
     lng: -81.54126,
     url: "https://www.yelp.com/biz/howard-brewing-lenoir?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 144.6733301,
+    val1: 144.6733301,
     LANDSQMI: 329.73,
-    MedianIncome: 30968
+    val2: 30968
   },
   {
     Brewery: "Hub City Tap House",
@@ -1982,9 +1982,9 @@ var points = [
     lat: 34.95243599,
     lng: -81.92953013,
     url: "https://www.yelp.com/biz/hub-city-tap-house-spartanburg-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 833.6632523,
+    val1: 833.6632523,
     LANDSQMI: 19.03,
-    MedianIncome: 26656
+    val2: 26656
   },
   {
     Brewery: "Hunter-Gatherer Brewery & Ale House",
@@ -1996,9 +1996,9 @@ var points = [
     lat: 33.99739,
     lng: -81.03151,
     url: "https://www.yelp.com/biz/hunter-gatherer-brewery-and-ale-house-columbia?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1803.262807,
+    val1: 1803.262807,
     LANDSQMI: 11.42,
-    MedianIncome: 29557
+    val2: 29557
   },
   {
     Brewery: "Huske Hardware House",
@@ -2010,9 +2010,9 @@ var points = [
     lat: 35.053389,
     lng: -78.882968,
     url: "https://www.yelp.com/biz/huske-hardware-house-fayetteville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1397.574371,
+    val1: 1397.574371,
     LANDSQMI: 12.28,
-    MedianIncome: 25465
+    val2: 25465
   },
   {
     Brewery: "Innovation Brewing",
@@ -2024,9 +2024,9 @@ var points = [
     lat: 35.37399048,
     lng: -83.22020191,
     url: "https://www.yelp.com/biz/innovation-brewing-sylva?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 150.1423761,
+    val1: 150.1423761,
     LANDSQMI: 107.3,
-    MedianIncome: 41446
+    val2: 41446
   },
   {
     Brewery: "Ironclad Brewery",
@@ -2038,9 +2038,9 @@ var points = [
     lat: 34.23700981,
     lng: -77.94791504,
     url: "https://www.yelp.com/biz/ironclad-brewery-wilmington-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "Johnson City Brewing Company",
@@ -2052,9 +2052,9 @@ var points = [
     lat: 36.31723,
     lng: -82.3503,
     url: "https://www.yelp.com/biz/johnson-city-brewing-company-johnson-city-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 783.6681969,
+    val1: 783.6681969,
     LANDSQMI: 46.17,
-    MedianIncome: 33273
+    val2: 33273
   },
   {
     Brewery: "Joymongers Brewery Co",
@@ -2066,9 +2066,9 @@ var points = [
     lat: 36.0786573,
     lng: -79.7934607,
     url: "https://www.yelp.com/biz/joymongers-brewery-co-greensboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3529.683514,
+    val1: 3529.683514,
     LANDSQMI: 6.21,
-    MedianIncome: 26460
+    val2: 26460
   },
   {
     Brewery: "JRH Brewing",
@@ -2080,9 +2080,9 @@ var points = [
     lat: 36.3116433,
     lng: -82.35541798,
     url: "https://www.yelp.com/biz/jrh-brewing-johnson-city?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1013.834347,
+    val1: 1013.834347,
     LANDSQMI: 33.78,
-    MedianIncome: 39298
+    val2: 39298
   },
   {
     Brewery: "Koi Pond",
@@ -2094,9 +2094,9 @@ var points = [
     lat: 35.9576925,
     lng: -77.80152217,
     url: "https://www.yelp.com/biz/koi-pond-rocky-mount?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 687.8294144,
+    val1: 687.8294144,
     LANDSQMI: 42.25,
-    MedianIncome: 44282
+    val2: 44282
   },
   {
     Brewery: "Lagunitas Charleston TapRoom & Beer Sanctuary",
@@ -2108,9 +2108,9 @@ var points = [
     lat: 32.77848,
     lng: -79.92726,
     url: "https://www.yelp.com/biz/lagunitas-charleston-taproom-and-beer-sanctuary-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 7023.812095,
+    val1: 7023.812095,
     LANDSQMI: 1.55,
-    MedianIncome: 54405
+    val2: 54405
   },
   {
     Brewery: "Lake Norman Brewing Company",
@@ -2122,9 +2122,9 @@ var points = [
     lat: 35.6243399,
     lng: -80.80347,
     url: "https://www.yelp.com/biz/lake-norman-brewing-company-mooresville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 465.5857941,
+    val1: 465.5857941,
     LANDSQMI: 73.75,
-    MedianIncome: 53157
+    val2: 53157
   },
   {
     Brewery: "Lazy Hiker Brewing Company",
@@ -2136,9 +2136,9 @@ var points = [
     lat: 35.1806717,
     lng: -83.3842392,
     url: "https://www.yelp.com/biz/lazy-hiker-brewing-company-franklin?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 89.75793445,
+    val1: 89.75793445,
     LANDSQMI: 301.25,
-    MedianIncome: 37066
+    val2: 37066
   },
   {
     Brewery: "Legal Remedy Brewing",
@@ -2150,9 +2150,9 @@ var points = [
     lat: 34.93043,
     lng: -81.02497,
     url: "https://www.yelp.com/biz/legal-remedy-brewing-rock-hill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 436.2334887,
+    val1: 436.2334887,
     LANDSQMI: 120.04,
-    MedianIncome: 37152
+    val2: 37152
   },
   {
     Brewery: "Legion Brewing",
@@ -2164,9 +2164,9 @@ var points = [
     lat: 35.21842,
     lng: -80.81303,
     url: "https://www.yelp.com/biz/legion-brewing-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3715.902231,
+    val1: 3715.902231,
     LANDSQMI: 11.82,
-    MedianIncome: 35310
+    val2: 35310
   },
   {
     Brewery: "Lenny Boy Brewing Co.",
@@ -2178,9 +2178,9 @@ var points = [
     lat: 35.201444,
     lng: -80.873595,
     url: "https://www.yelp.com/biz/lenny-boy-brewing-co-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "Lexington Avenue Brewery",
@@ -2192,9 +2192,9 @@ var points = [
     lat: 35.59618,
     lng: -82.5532074,
     url: "https://www.yelp.com/biz/lexington-avenue-brewery-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Liberty Brewery & Grill",
@@ -2206,9 +2206,9 @@ var points = [
     lat: 35.98795,
     lng: -80.004211,
     url: "https://www.yelp.com/biz/liberty-brewery-and-grill-high-point?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1816.921948,
+    val1: 1816.921948,
     LANDSQMI: 13.17,
-    MedianIncome: 39867
+    val2: 39867
   },
   {
     Brewery: "Lincoln Brewing Company",
@@ -2220,9 +2220,9 @@ var points = [
     lat: 35.61639157,
     lng: -78.73392357,
     url: "https://www.yelp.com/biz/lincoln-brewing-company-fuquay-varina?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 401.2691541,
+    val1: 401.2691541,
     LANDSQMI: 96.93,
-    MedianIncome: 66512
+    val2: 66512
   },
   {
     Brewery: "Little City Brewing",
@@ -2234,9 +2234,9 @@ var points = [
     lat: 35.78496,
     lng: -78.64478,
     url: "https://www.yelp.com/biz/little-city-brewing-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 911.3405877,
+    val1: 911.3405877,
     LANDSQMI: 51.61,
-    MedianIncome: 54904
+    val2: 54904
   },
   {
     Brewery: "Lonerider Brewing Company",
@@ -2248,9 +2248,9 @@ var points = [
     lat: 35.90367,
     lng: -78.76249,
     url: "https://www.yelp.com/biz/lonerider-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1808.227962,
+    val1: 1808.227962,
     LANDSQMI: 8.41,
-    MedianIncome: 78902
+    val2: 78902
   },
   {
     Brewery: "Lookout Brewing Co",
@@ -2262,9 +2262,9 @@ var points = [
     lat: 35.6193008,
     lng: -82.3180084,
     url: "https://www.yelp.com/biz/lookout-brewing-co-black-mountain?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 132.2033958,
+    val1: 132.2033958,
     LANDSQMI: 99.91,
-    MedianIncome: 42271
+    val2: 42271
   },
   {
     Brewery: "Lost Province Brewing Co.",
@@ -2276,9 +2276,9 @@ var points = [
     lat: 36.219076,
     lng: -81.6835445,
     url: "https://www.yelp.com/biz/lost-province-brewing-co-boone?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 333.9372087,
+    val1: 333.9372087,
     LANDSQMI: 99,
-    MedianIncome: 27819
+    val2: 27819
   },
   {
     Brewery: "Low Tide Brewing",
@@ -2290,9 +2290,9 @@ var points = [
     lat: 32.74128,
     lng: -80.04152,
     url: "https://www.yelp.com/biz/low-tide-brewing-johns-island?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 191.2177827,
+    val1: 191.2177827,
     LANDSQMI: 107.09,
-    MedianIncome: 60954
+    val2: 60954
   },
   {
     Brewery: "Lynnwood Brewing Concern",
@@ -2304,9 +2304,9 @@ var points = [
     lat: 35.80782661,
     lng: -78.62213285,
     url: "https://www.yelp.com/biz/lynnwood-brewing-concern-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1956.438482,
+    val1: 1956.438482,
     LANDSQMI: 21.57,
-    MedianIncome: 50373
+    val2: 50373
   },
   {
     Brewery: "Mad County Brewing",
@@ -2318,9 +2318,9 @@ var points = [
     lat: 35.7973,
     lng: -82.68486,
     url: "https://www.yelp.com/biz/mad-county-brewing-marshall?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 44.21915008,
+    val1: 44.21915008,
     LANDSQMI: 263.91,
-    MedianIncome: 40578
+    val2: 40578
   },
   {
     Brewery: "Mash House",
@@ -2332,9 +2332,9 @@ var points = [
     lat: 35.070571,
     lng: -78.955151,
     url: "https://www.yelp.com/biz/mash-house-fayetteville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1847.13748,
+    val1: 1847.13748,
     LANDSQMI: 16.73,
-    MedianIncome: 46919
+    val2: 46919
   },
   {
     Brewery: "Melt Your Heart",
@@ -2346,9 +2346,9 @@ var points = [
     lat: 35.59736,
     lng: -82.55349,
     url: "https://www.yelp.com/biz/melt-your-heart-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Me's burgers & brews",
@@ -2360,9 +2360,9 @@ var points = [
     lat: 36.5881878,
     lng: -79.3901461,
     url: "https://www.yelp.com/biz/mes-burgers-and-brews-danville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 386.581572,
+    val1: 386.581572,
     LANDSQMI: 73,
-    MedianIncome: 32931
+    val2: 32931
   },
   {
     Brewery: "Miller Brewing",
@@ -2374,9 +2374,9 @@ var points = [
     lat: 36.5152817,
     lng: -79.715889,
     url: "https://www.yelp.com/biz/miller-brewing-eden?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 355.2827438,
+    val1: 355.2827438,
     LANDSQMI: 67.75,
-    MedianIncome: 33800
+    val2: 33800
   },
   {
     Brewery: "Mills River Brewery",
@@ -2388,9 +2388,9 @@ var points = [
     lat: 35.44451042,
     lng: -82.53619387,
     url: "https://www.yelp.com/biz/mills-river-brewery-arden-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 571.2818916,
+    val1: 571.2818916,
     LANDSQMI: 32.95,
-    MedianIncome: 60077
+    val2: 60077
   },
   {
     Brewery: "Moon River Brewing Company",
@@ -2402,9 +2402,9 @@ var points = [
     lat: 32.08091,
     lng: -81.09206,
     url: "https://www.yelp.com/biz/moon-river-brewing-company-savannah?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4534.694199,
+    val1: 4534.694199,
     LANDSQMI: 4.78,
-    MedianIncome: 23090
+    val2: 23090
   },
   {
     Brewery: "Morgan Ridge Brewery",
@@ -2416,9 +2416,9 @@ var points = [
     lat: 35.67448545,
     lng: -80.45862158,
     url: "https://www.yelp.com/biz/morgan-ridge-brewery-salisbury?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 827.3593285,
+    val1: 827.3593285,
     LANDSQMI: 29.9,
-    MedianIncome: 33656
+    val2: 33656
   },
   {
     Brewery: "Mother Earth Brewing",
@@ -2430,9 +2430,9 @@ var points = [
     lat: 35.262656,
     lng: -77.5825349,
     url: "https://www.yelp.com/biz/mother-earth-brewing-kinston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 192.1021796,
+    val1: 192.1021796,
     LANDSQMI: 106.14,
-    MedianIncome: 28529
+    val2: 28529
   },
   {
     Brewery: "Mystery Brewing Company",
@@ -2444,9 +2444,9 @@ var points = [
     lat: 36.0706711,
     lng: -79.1137009,
     url: "https://www.yelp.com/biz/mystery-brewing-company-hillsborough?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 239.5243053,
+    val1: 239.5243053,
     LANDSQMI: 101.39,
-    MedianIncome: 57627
+    val2: 57627
   },
   {
     Brewery: "Mystery Brewing Public House",
@@ -2458,9 +2458,9 @@ var points = [
     lat: 36.07231447,
     lng: -79.11106523,
     url: "https://www.yelp.com/biz/mystery-brewing-public-house-hillsborough-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 239.5243053,
+    val1: 239.5243053,
     LANDSQMI: 101.39,
-    MedianIncome: 57627
+    val2: 57627
   },
   {
     Brewery: "Nantahala Brewing Company",
@@ -2472,9 +2472,9 @@ var points = [
     lat: 35.4311926,
     lng: -83.4461324,
     url: "https://www.yelp.com/biz/nantahala-brewing-company-bryson-city-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 63.65154109,
+    val1: 63.65154109,
     LANDSQMI: 136.46,
-    MedianIncome: 43855
+    val2: 43855
   },
   {
     Brewery: "Natty Greene's Brewing Co",
@@ -2486,9 +2486,9 @@ var points = [
     lat: 35.99151631,
     lng: -78.90536388,
     url: "https://www.yelp.com/biz/natty-greenes-brewing-co-durham?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Natty Greene's Brewing Company",
@@ -2500,9 +2500,9 @@ var points = [
     lat: 36.0686,
     lng: -79.79027,
     url: "https://www.yelp.com/biz/natty-greenes-brewing-company-greensboro-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3529.683514,
+    val1: 3529.683514,
     LANDSQMI: 6.21,
-    MedianIncome: 26460
+    val2: 26460
   },
   {
     Brewery: "Neuse River Brewing Company",
@@ -2514,9 +2514,9 @@ var points = [
     lat: 35.8041774,
     lng: -78.6328332,
     url: "https://www.yelp.com/biz/neuse-river-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3242.948477,
+    val1: 3242.948477,
     LANDSQMI: 3.22,
-    MedianIncome: 81351
+    val2: 81351
   },
   {
     Brewery: "New Anthem Beer Project",
@@ -2528,9 +2528,9 @@ var points = [
     lat: 34.23423385,
     lng: -77.94777618,
     url: "https://www.yelp.com/biz/new-anthem-beer-project-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "New Belgium",
@@ -2542,9 +2542,9 @@ var points = [
     lat: 35.5867,
     lng: -82.57064,
     url: "https://www.yelp.com/biz/new-belgium-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1015.454487,
+    val1: 1015.454487,
     LANDSQMI: 37.96,
-    MedianIncome: 41548
+    val2: 41548
   },
   {
     Brewery: "New Sarum Brewing Company",
@@ -2556,9 +2556,9 @@ var points = [
     lat: 35.66639428,
     lng: -80.46807024,
     url: "https://www.yelp.com/biz/new-sarum-brewing-company-salisbury?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 827.3593285,
+    val1: 827.3593285,
     LANDSQMI: 29.9,
-    MedianIncome: 33656
+    val2: 33656
   },
   {
     Brewery: "New South Brewing",
@@ -2570,9 +2570,9 @@ var points = [
     lat: 33.6983564,
     lng: -78.8885787,
     url: "https://www.yelp.com/biz/new-south-brewing-myrtle-beach-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1139.099262,
+    val1: 1139.099262,
     LANDSQMI: 23.7,
-    MedianIncome: 35352
+    val2: 35352
   },
   {
     Brewery: "Newgrass Brewing",
@@ -2584,9 +2584,9 @@ var points = [
     lat: 35.29022,
     lng: -81.53997,
     url: "https://www.yelp.com/biz/newgrass-brewing-shelby?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 262.5138055,
+    val1: 262.5138055,
     LANDSQMI: 107.03,
-    MedianIncome: 34831
+    val2: 34831
   },
   {
     Brewery: "Nickelpoint Brewing Co.",
@@ -2598,9 +2598,9 @@ var points = [
     lat: 35.8044014,
     lng: -78.6336517,
     url: "https://www.yelp.com/biz/nickelpoint-brewing-co-raleigh-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3242.948477,
+    val1: 3242.948477,
     LANDSQMI: 3.22,
-    MedianIncome: 81351
+    val2: 81351
   },
   {
     Brewery: "NoDa Brewing Company",
@@ -2612,9 +2612,9 @@ var points = [
     lat: 35.2403717,
     lng: -80.8147964,
     url: "https://www.yelp.com/biz/noda-brewing-company-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3715.902231,
+    val1: 3715.902231,
     LANDSQMI: 11.82,
-    MedianIncome: 35310
+    val2: 35310
   },
   {
     Brewery: "NoDa Brewing Company",
@@ -2626,9 +2626,9 @@ var points = [
     lat: 35.25168,
     lng: -80.81264,
     url: "https://www.yelp.com/biz/noda-brewing-company-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1685.84842,
+    val1: 1685.84842,
     LANDSQMI: 7.06,
-    MedianIncome: 21087
+    val2: 21087
   },
   {
     Brewery: "Oak & Dagger Public House",
@@ -2640,9 +2640,9 @@ var points = [
     lat: 35.78919878,
     lng: -78.63914901,
     url: "https://www.yelp.com/biz/oak-and-dagger-public-house-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1956.438482,
+    val1: 1956.438482,
     LANDSQMI: 21.57,
-    MedianIncome: 50373
+    val2: 50373
   },
   {
     Brewery: "Oak Road Brewery",
@@ -2654,9 +2654,9 @@ var points = [
     lat: 33.0235,
     lng: -80.1716,
     url: "https://www.yelp.com/biz/oak-road-brewery-summerville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 493.2017633,
+    val1: 493.2017633,
     LANDSQMI: 135.3,
-    MedianIncome: 51814
+    val2: 51814
   },
   {
     Brewery: "O'Connor Brewing Company",
@@ -2668,9 +2668,9 @@ var points = [
     lat: 36.8701064,
     lng: -76.2862252,
     url: "https://www.yelp.com/biz/o-connor-brewing-company-norfolk-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5617.312056,
+    val1: 5617.312056,
     LANDSQMI: 0.8,
-    MedianIncome: 40513
+    val2: 40513
   },
   {
     Brewery: "Old Glade Brewery",
@@ -2682,9 +2682,9 @@ var points = [
     lat: 36.79086929,
     lng: -81.77056666,
     url: "https://www.yelp.com/biz/old-glade-brewery-glade-spring?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 95.99177745,
+    val1: 95.99177745,
     LANDSQMI: 58.93,
-    MedianIncome: 38735
+    val2: 38735
   },
   {
     Brewery: "One World Brewing",
@@ -2696,9 +2696,9 @@ var points = [
     lat: 35.594796,
     lng: -82.552285,
     url: "https://www.yelp.com/biz/one-world-brewing-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Open Brewing",
@@ -2710,9 +2710,9 @@ var points = [
     lat: 35.5033607,
     lng: -82.5224609,
     url: "https://www.yelp.com/biz/open-brewing-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Oskar Blues Brewery",
@@ -2724,9 +2724,9 @@ var points = [
     lat: 35.253612,
     lng: -82.706401,
     url: "https://www.yelp.com/biz/oskar-blues-brewery-brevard-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 153.9665441,
+    val1: 153.9665441,
     LANDSQMI: 125.66,
-    MedianIncome: 40732
+    val2: 40732
   },
   {
     Brewery: "Outer Banks Brewing Station",
@@ -2738,9 +2738,9 @@ var points = [
     lat: 36.0094795,
     lng: -75.6594467,
     url: "https://www.yelp.com/biz/outer-banks-brewing-station-kill-devil-hills?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1174.831907,
+    val1: 1174.831907,
     LANDSQMI: 9.25,
-    MedianIncome: 53864
+    val2: 53864
   },
   {
     Brewery: "Outer Banks Distilling",
@@ -2752,9 +2752,9 @@ var points = [
     lat: 35.9081306,
     lng: -75.6748734,
     url: "https://www.yelp.com/biz/outer-banks-distilling-manteo?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 691.5439111,
+    val1: 691.5439111,
     LANDSQMI: 8.84,
-    MedianIncome: 53588
+    val2: 53588
   },
   {
     Brewery: "Oyster House Brewing Company",
@@ -2766,9 +2766,9 @@ var points = [
     lat: 35.57943,
     lng: -82.588867,
     url: "https://www.yelp.com/biz/oyster-house-brewing-company-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1015.454487,
+    val1: 1015.454487,
     LANDSQMI: 37.96,
-    MedianIncome: 41548
+    val2: 41548
   },
   {
     Brewery: "Palmetto Brewing",
@@ -2780,9 +2780,9 @@ var points = [
     lat: 32.8013133,
     lng: -79.9459924,
     url: "https://www.yelp.com/biz/palmetto-brewing-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3896.629681,
+    val1: 3896.629681,
     LANDSQMI: 5.34,
-    MedianIncome: 27108
+    val2: 27108
   },
   {
     Brewery: "Pig Pounder Brewery",
@@ -2794,9 +2794,9 @@ var points = [
     lat: 36.08423,
     lng: -79.80436,
     url: "https://www.yelp.com/biz/pig-pounder-brewery-greensboro-4?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2268.229496,
+    val1: 2268.229496,
     LANDSQMI: 7.63,
-    MedianIncome: 60938
+    val2: 60938
   },
   {
     Brewery: "Pisgah Brewing Company",
@@ -2808,9 +2808,9 @@ var points = [
     lat: 35.608071,
     lng: -82.358705,
     url: "https://www.yelp.com/biz/pisgah-brewing-company-black-mountain?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 132.2033958,
+    val1: 132.2033958,
     LANDSQMI: 99.91,
-    MedianIncome: 42271
+    val2: 42271
   },
   {
     Brewery: "Ponysaurus Brewing Company",
@@ -2822,9 +2822,9 @@ var points = [
     lat: 35.98940837,
     lng: -78.8955327,
     url: "https://www.yelp.com/biz/ponysaurus-brewing-company-durham-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4034.058246,
+    val1: 4034.058246,
     LANDSQMI: 5.28,
-    MedianIncome: 26690
+    val2: 26690
   },
   {
     Brewery: "Port City Brew Bus",
@@ -2836,9 +2836,9 @@ var points = [
     lat: 34.238739,
     lng: -77.9485321,
     url: "https://www.yelp.com/biz/port-city-brew-bus-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "Pour Taproom",
@@ -2850,9 +2850,9 @@ var points = [
     lat: 35.56809462,
     lng: -82.54384735,
     url: "https://www.yelp.com/biz/pour-taproom-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Preyer Brewing Company",
@@ -2864,9 +2864,9 @@ var points = [
     lat: 36.07932325,
     lng: -79.79383544,
     url: "https://www.yelp.com/biz/preyer-brewing-company-greensboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3529.683514,
+    val1: 3529.683514,
     LANDSQMI: 6.21,
-    MedianIncome: 26460
+    val2: 26460
   },
   {
     Brewery: "Primal Brewery",
@@ -2878,9 +2878,9 @@ var points = [
     lat: 35.43699,
     lng: -80.84365,
     url: "https://www.yelp.com/biz/primal-brewery-huntersville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 817.112289,
+    val1: 817.112289,
     LANDSQMI: 63.8,
-    MedianIncome: 83519
+    val2: 83519
   },
   {
     Brewery: "Quest Brewing Co",
@@ -2892,9 +2892,9 @@ var points = [
     lat: 34.846625,
     lng: -82.34507,
     url: "https://www.yelp.com/biz/quest-brewing-co-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1197.355504,
+    val1: 1197.355504,
     LANDSQMI: 28.8,
-    MedianIncome: 48809
+    val2: 48809
   },
   {
     Brewery: "Railhouse Brewery",
@@ -2906,9 +2906,9 @@ var points = [
     lat: 35.14405558,
     lng: -79.42497253,
     url: "https://www.yelp.com/biz/railhouse-brewery-aberdeen-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 182.6804559,
+    val1: 182.6804559,
     LANDSQMI: 63.94,
-    MedianIncome: 37672
+    val2: 37672
   },
   {
     Brewery: "Raleigh Brewing Company",
@@ -2920,9 +2920,9 @@ var points = [
     lat: 35.7929612,
     lng: -78.6861083,
     url: "https://www.yelp.com/biz/raleigh-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1564.480409,
+    val1: 1564.480409,
     LANDSQMI: 16.1,
-    MedianIncome: 53976
+    val2: 53976
   },
   {
     Brewery: "Reaver Beach Brewing Company",
@@ -2934,9 +2934,9 @@ var points = [
     lat: 36.78810494,
     lng: -76.06012721,
     url: "https://www.yelp.com/biz/reaver-beach-brewing-company-virginia-beach?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3906.483957,
+    val1: 3906.483957,
     LANDSQMI: 9.21,
-    MedianIncome: 66944
+    val2: 66944
   },
   {
     Brewery: "Red Clay Ciderworks",
@@ -2948,9 +2948,9 @@ var points = [
     lat: 35.194561,
     lng: -80.8748169,
     url: "https://www.yelp.com/biz/red-clay-ciderworks-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "Red Oak Brewery",
@@ -2962,9 +2962,9 @@ var points = [
     lat: 36.06127,
     lng: -79.56955,
     url: "https://www.yelp.com/biz/red-oak-brewery-whitsett?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 277.5099898,
+    val1: 277.5099898,
     LANDSQMI: 25.6,
-    MedianIncome: 60718
+    val2: 60718
   },
   {
     Brewery: "Revelry Brewing",
@@ -2976,9 +2976,9 @@ var points = [
     lat: 32.8070717,
     lng: -79.9450073,
     url: "https://www.yelp.com/biz/revelry-brewing-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3896.629681,
+    val1: 3896.629681,
     LANDSQMI: 5.34,
-    MedianIncome: 27108
+    val2: 27108
   },
   {
     Brewery: "Rip Rap Brewing Co",
@@ -2990,9 +2990,9 @@ var points = [
     lat: 36.8703778,
     lng: -76.2836594,
     url: "https://www.yelp.com/biz/rip-rap-brewing-co-norfolk-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5617.312056,
+    val1: 5617.312056,
     LANDSQMI: 0.8,
-    MedianIncome: 40513
+    val2: 40513
   },
   {
     Brewery: "River Dog Brewing Co",
@@ -3004,9 +3004,9 @@ var points = [
     lat: 32.3192116,
     lng: -80.9380078,
     url: "https://www.yelp.com/biz/river-dog-brewing-co-ridgeland?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 56.29735758,
+    val1: 56.29735758,
     LANDSQMI: 237.2,
-    MedianIncome: 35642
+    val2: 35642
   },
   {
     Brewery: "River Rat Brewery",
@@ -3018,9 +3018,9 @@ var points = [
     lat: 33.9726715,
     lng: -81.0111008,
     url: "https://www.yelp.com/biz/river-rat-brewery-columbia?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1803.262807,
+    val1: 1803.262807,
     LANDSQMI: 11.42,
-    MedianIncome: 29557
+    val2: 29557
   },
   {
     Brewery: "Riverwatch Brewery",
@@ -3032,9 +3032,9 @@ var points = [
     lat: 33.46050134,
     lng: -81.9622098,
     url: "https://www.yelp.com/biz/riverwatch-brewery-augusta?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 800.7284828,
+    val1: 800.7284828,
     LANDSQMI: 20.54,
-    MedianIncome: 16631
+    val2: 16631
   },
   {
     Brewery: "RJ Rockers",
@@ -3046,9 +3046,9 @@ var points = [
     lat: 34.9486839,
     lng: -81.9358536,
     url: "https://www.yelp.com/biz/rj-rockers-spartanburg?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 833.6632523,
+    val1: 833.6632523,
     LANDSQMI: 19.03,
-    MedianIncome: 26656
+    val2: 26656
   },
   {
     Brewery: "Sanctuary Brewing Company",
@@ -3060,9 +3060,9 @@ var points = [
     lat: 35.3147499,
     lng: -82.45884,
     url: "https://www.yelp.com/biz/sanctuary-brewing-company-hendersonville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 324.9383161,
+    val1: 324.9383161,
     LANDSQMI: 100.6,
-    MedianIncome: 36683
+    val2: 36683
   },
   {
     Brewery: "Sapphire Mountain Brewing Company",
@@ -3074,9 +3074,9 @@ var points = [
     lat: 35.113326,
     lng: -83.025183,
     url: "https://www.yelp.com/biz/sapphire-mountain-brewing-company-sapphire?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 22.3581694,
+    val1: 22.3581694,
     LANDSQMI: 45.31,
-    MedianIncome: 56250
+    val2: 56250
   },
   {
     Brewery: "Satulah Mountain Brewing Co",
@@ -3088,9 +3088,9 @@ var points = [
     lat: 35.05412,
     lng: -83.19538,
     url: "https://www.yelp.com/biz/satulah-mountain-brewing-co-highlands?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 36.77552515,
+    val1: 36.77552515,
     LANDSQMI: 86.93,
-    MedianIncome: 50459
+    val2: 50459
   },
   {
     Brewery: "Service Brewing",
@@ -3102,9 +3102,9 @@ var points = [
     lat: 32.08435,
     lng: -81.09829,
     url: "https://www.yelp.com/biz/service-brewing-savannah?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 4534.694199,
+    val1: 4534.694199,
     LANDSQMI: 4.78,
-    MedianIncome: 23090
+    val2: 23090
   },
   {
     Brewery: "Sierra Nevada Brewery",
@@ -3116,9 +3116,9 @@ var points = [
     lat: 35.43139723,
     lng: -82.55180026,
     url: "https://www.yelp.com/biz/sierra-nevada-brewery-fletcher?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 386.2464856,
+    val1: 386.2464856,
     LANDSQMI: 42.7,
-    MedianIncome: 45273
+    val2: 45273
   },
   {
     Brewery: "Skull Camp Brewing",
@@ -3130,9 +3130,9 @@ var points = [
     lat: 36.2833153,
     lng: -80.8523802,
     url: "https://www.yelp.com/biz/skull-camp-brewing-elkin?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 149.3602645,
+    val1: 149.3602645,
     LANDSQMI: 70.11,
-    MedianIncome: 36560
+    val2: 36560
   },
   {
     Brewery: "Small Batch Beer",
@@ -3144,9 +3144,9 @@ var points = [
     lat: 36.0997128,
     lng: -80.2471175,
     url: "https://www.yelp.com/biz/small-batch-beer-winston-salem?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1481.344891,
+    val1: 1481.344891,
     LANDSQMI: 12.76,
-    MedianIncome: 24350
+    val2: 24350
   },
   {
     Brewery: "Smartmouth Brewing Company",
@@ -3158,9 +3158,9 @@ var points = [
     lat: 36.86642,
     lng: -76.30935,
     url: "https://www.yelp.com/biz/smartmouth-brewing-company-norfolk?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 29073.01402,
+    val1: 29073.01402,
     LANDSQMI: 0.89,
-    MedianIncome: 62755
+    val2: 62755
   },
   {
     Brewery: "Smoky Mountain Brewery",
@@ -3172,9 +3172,9 @@ var points = [
     lat: 35.70773647,
     lng: -83.52068424,
     url: "https://www.yelp.com/biz/smoky-mountain-brewery-gatlinburg?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 25.1803353,
+    val1: 25.1803353,
     LANDSQMI: 210.01,
-    MedianIncome: 40117
+    val2: 40117
   },
   {
     Brewery: "Smoky Mountain Brewery",
@@ -3186,9 +3186,9 @@ var points = [
     lat: 35.75062,
     lng: -83.99363,
     url: "https://www.yelp.com/biz/smoky-mountain-brewery-maryville-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 360.7337392,
+    val1: 360.7337392,
     LANDSQMI: 69.65,
-    MedianIncome: 43269
+    val2: 43269
   },
   {
     Brewery: "Southbound Brewing Company",
@@ -3199,9 +3199,9 @@ var points = [
     lat: 32.08702,
     lng: -81.1119,
     url: "https://www.yelp.com/biz/southbound-brewing-company-savannah?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1214.882456,
+    val1: 1214.882456,
     LANDSQMI: 19.47,
-    MedianIncome: 68834
+    val2: 68834
   },
   {
     Brewery: "Southern Appalachian Brewery",
@@ -3213,9 +3213,9 @@ var points = [
     lat: 35.3224106,
     lng: -82.4590988,
     url: "https://www.yelp.com/biz/southern-appalachian-brewery-hendersonville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 324.9383161,
+    val1: 324.9383161,
     LANDSQMI: 100.6,
-    MedianIncome: 36683
+    val2: 36683
   },
   {
     Brewery: "Southern Barrel Brewing Co",
@@ -3227,9 +3227,9 @@ var points = [
     lat: 32.2715652,
     lng: -80.9189465,
     url: "https://www.yelp.com/biz/southern-barrel-brewing-co-bluffton?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 329.500134,
+    val1: 329.500134,
     LANDSQMI: 103.05,
-    MedianIncome: 57665
+    val2: 57665
   },
   {
     Brewery: "Southern Brewing Company",
@@ -3241,9 +3241,9 @@ var points = [
     lat: 33.98370785,
     lng: -83.3485879,
     url: "https://www.yelp.com/biz/southern-brewing-company-athens?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 882.7712455,
+    val1: 882.7712455,
     LANDSQMI: 23.6,
-    MedianIncome: 20884
+    val2: 20884
   },
   {
     Brewery: "Southern Hops Brewing Company",
@@ -3255,9 +3255,9 @@ var points = [
     lat: 34.1748612,
     lng: -79.8322981,
     url: "https://www.yelp.com/biz/southern-hops-brewing-company-florence-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 804.8148553,
+    val1: 804.8148553,
     LANDSQMI: 53.7,
-    MedianIncome: 47202
+    val2: 47202
   },
   {
     Brewery: "Southern Peak Brewery",
@@ -3269,9 +3269,9 @@ var points = [
     lat: 35.7463,
     lng: -78.84426,
     url: "https://www.yelp.com/biz/southern-peak-brewery-apex?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1088.130778,
+    val1: 1088.130778,
     LANDSQMI: 28.33,
-    MedianIncome: 95816
+    val2: 95816
   },
   {
     Brewery: "Southern Pines Brewing Company",
@@ -3283,9 +3283,9 @@ var points = [
     lat: 35.1873602,
     lng: -79.37159632,
     url: "https://www.yelp.com/biz/southern-pines-brewing-company-southern-pines-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 477.9842321,
+    val1: 477.9842321,
     LANDSQMI: 29.12,
-    MedianIncome: 47982
+    val2: 47982
   },
   {
     Brewery: "Southern Range Brewing Co.",
@@ -3297,9 +3297,9 @@ var points = [
     lat: 34.98049201,
     lng: -80.55069264,
     url: "https://www.yelp.com/biz/southern-range-brewing-co-monroe-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 199.2248085,
+    val1: 199.2248085,
     LANDSQMI: 132.07,
-    MedianIncome: 47781
+    val2: 47781
   },
   {
     Brewery: "St George Brewing Co",
@@ -3311,9 +3311,9 @@ var points = [
     lat: 37.0999184,
     lng: -76.3946533,
     url: "https://www.yelp.com/biz/st-george-brewing-co-hampton?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2517.492306,
+    val1: 2517.492306,
     LANDSQMI: 19.79,
-    MedianIncome: 55415
+    val2: 55415
   },
   {
     Brewery: "Steel String Brewery",
@@ -3325,9 +3325,9 @@ var points = [
     lat: 35.9098184,
     lng: -79.0726016,
     url: "https://www.yelp.com/biz/steel-string-brewery-carrboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3910.773906,
+    val1: 3910.773906,
     LANDSQMI: 3.74,
-    MedianIncome: 40658
+    val2: 40658
   },
   {
     Brewery: "Stillwater Cold Brew Co.",
@@ -3339,9 +3339,9 @@ var points = [
     lat: 35.71578,
     lng: -83.503,
     url: "https://www.yelp.com/biz/stillwater-cold-brew-co-gatlinburg?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 25.1803353,
+    val1: 25.1803353,
     LANDSQMI: 210.01,
-    MedianIncome: 40117
+    val2: 40117
   },
   {
     Brewery: "Studio Brew",
@@ -3353,9 +3353,9 @@ var points = [
     lat: 36.59827874,
     lng: -82.18213675,
     url: "https://www.yelp.com/biz/studio-brew-bristol?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1652.130305,
+    val1: 1652.130305,
     LANDSQMI: 10.36,
-    MedianIncome: 31977
+    val2: 31977
   },
   {
     Brewery: "Sub Noir Brewing Company",
@@ -3367,9 +3367,9 @@ var points = [
     lat: 35.8087147,
     lng: -78.6234312,
     url: "https://www.yelp.com/biz/sub-noir-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3242.948477,
+    val1: 3242.948477,
     LANDSQMI: 3.22,
-    MedianIncome: 81351
+    val2: 81351
   },
   {
     Brewery: "Sugar Creek Brewing Company",
@@ -3381,9 +3381,9 @@ var points = [
     lat: 35.18549,
     lng: -80.88092,
     url: "https://www.yelp.com/biz/sugar-creek-brewing-company-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "Swamp Cabbage Brewing Company",
@@ -3395,9 +3395,9 @@ var points = [
     lat: 33.97119522,
     lng: -81.02857971,
     url: "https://www.yelp.com/biz/swamp-cabbage-brewing-company-columbia?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1803.262807,
+    val1: 1803.262807,
     LANDSQMI: 11.42,
-    MedianIncome: 29557
+    val2: 29557
   },
   {
     Brewery: "Swamp Rabbit Brewery and Taproom",
@@ -3409,9 +3409,9 @@ var points = [
     lat: 34.9670526,
     lng: -82.4426219,
     url: "https://www.yelp.com/biz/swamp-rabbit-brewery-and-taproom-travelers-rest?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 197.5750042,
+    val1: 197.5750042,
     LANDSQMI: 105.85,
-    MedianIncome: 46409
+    val2: 46409
   },
   {
     Brewery: "Sweet Taters",
@@ -3423,9 +3423,9 @@ var points = [
     lat: 35.9588899,
     lng: -77.80089,
     url: "https://www.yelp.com/biz/sweet-taters-rocky-mount?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 687.8294144,
+    val1: 687.8294144,
     LANDSQMI: 42.25,
-    MedianIncome: 44282
+    val2: 44282
   },
   {
     Brewery: "Sweeten Creek Brewing",
@@ -3437,9 +3437,9 @@ var points = [
     lat: 35.54248541,
     lng: -82.52180257,
     url: "https://www.yelp.com/biz/sweeten-creek-brewing-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Sycamore Brewing",
@@ -3451,9 +3451,9 @@ var points = [
     lat: 35.20896627,
     lng: -80.86269923,
     url: "https://www.yelp.com/biz/sycamore-brewing-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3410.674309,
+    val1: 3410.674309,
     LANDSQMI: 3.32,
-    MedianIncome: 64604
+    val2: 64604
   },
   {
     Brewery: "The Bier Box",
@@ -3465,9 +3465,9 @@ var points = [
     lat: 36.3287392,
     lng: -75.8156586,
     url: "https://www.yelp.com/biz/the-bier-box-corolla?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 20.3569774,
+    val1: 20.3569774,
     LANDSQMI: 26.62,
-    MedianIncome: 72169
+    val2: 72169
   },
   {
     Brewery: "The Bold Mariner Brewing Company",
@@ -3479,9 +3479,9 @@ var points = [
     lat: 36.87617,
     lng: -76.30539,
     url: "https://www.yelp.com/biz/the-bold-mariner-brewing-company-norfolk?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 5758.642403,
+    val1: 5758.642403,
     LANDSQMI: 3.52,
-    MedianIncome: 50789
+    val2: 50789
   },
   {
     Brewery: "The Brew House",
@@ -3493,9 +3493,9 @@ var points = [
     lat: 37.07988522,
     lng: -77.99782813,
     url: "https://www.yelp.com/biz/the-brew-house-blackstone?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 40.73038901,
+    val1: 40.73038901,
     LANDSQMI: 177.12,
-    MedianIncome: 36509
+    val2: 36509
   },
   {
     Brewery: "The Brewer's Kettle",
@@ -3507,9 +3507,9 @@ var points = [
     lat: 35.98972,
     lng: -80.02802,
     url: "https://www.yelp.com/biz/the-brewers-kettle-high-point?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1816.921948,
+    val1: 1816.921948,
     LANDSQMI: 13.17,
-    MedianIncome: 39867
+    val2: 39867
   },
   {
     Brewery: "The Brewery Experience",
@@ -3521,9 +3521,9 @@ var points = [
     lat: 35.32788,
     lng: -82.47973,
     url: "https://www.yelp.com/biz/the-brewery-experience-hendersonville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 861.5259307,
+    val1: 861.5259307,
     LANDSQMI: 16.45,
-    MedianIncome: 54146
+    val2: 54146
   },
   {
     Brewery: "The Bunker At Natty Greene's Brewery",
@@ -3535,9 +3535,9 @@ var points = [
     lat: 36.06103,
     lng: -79.82482,
     url: "https://www.yelp.com/biz/the-bunker-at-natty-greenes-brewery-greensboro-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3643.300809,
+    val1: 3643.300809,
     LANDSQMI: 6.03,
-    MedianIncome: 36664
+    val2: 36664
   },
   {
     Brewery: "The Damascus Brewery",
@@ -3549,9 +3549,9 @@ var points = [
     lat: 36.6402283,
     lng: -81.8020325,
     url: "https://www.yelp.com/biz/the-damascus-brewery-damascus?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 54.60364645,
+    val1: 54.60364645,
     LANDSQMI: 56.5,
-    MedianIncome: 32083
+    val2: 32083
   },
   {
     Brewery: "The Dreamchaser's Brewery",
@@ -3563,9 +3563,9 @@ var points = [
     lat: 34.92548,
     lng: -80.74301,
     url: "https://www.yelp.com/biz/the-dreamchasers-brewery-waxhaw-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 419.4247229,
+    val1: 419.4247229,
     LANDSQMI: 107.52,
-    MedianIncome: 93297
+    val2: 93297
   },
   {
     Brewery: "The Green Mansion",
@@ -3577,9 +3577,9 @@ var points = [
     lat: 35.58857898,
     lng: -82.55239505,
     url: "https://www.yelp.com/biz/the-green-mansion-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "The Olde Mecklenburg Brewery",
@@ -3591,9 +3591,9 @@ var points = [
     lat: 35.187442,
     lng: -80.881973,
     url: "https://www.yelp.com/biz/the-olde-mecklenburg-brewery-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "The River Company Restaurant and Brewery",
@@ -3605,9 +3605,9 @@ var points = [
     lat: 37.14628,
     lng: -80.5447499,
     url: "https://www.yelp.com/biz/the-river-company-restaurant-and-brewery-radford?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 323.8019768,
+    val1: 323.8019768,
     LANDSQMI: 63.83,
-    MedianIncome: 39808
+    val2: 39808
   },
   {
     Brewery: "The Sneak E Squirrel",
@@ -3619,9 +3619,9 @@ var points = [
     lat: 35.3728399,
     lng: -83.23602,
     url: "https://www.yelp.com/biz/the-sneak-e-squirrel-sylva?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 150.1423761,
+    val1: 150.1423761,
     LANDSQMI: 107.3,
-    MedianIncome: 41446
+    val2: 41446
   },
   {
     Brewery: "The Sour Barn",
@@ -3633,9 +3633,9 @@ var points = [
     lat: 34.27288278,
     lng: -77.81871188,
     url: "https://www.yelp.com/biz/the-sour-barn-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 764.1328186,
+    val1: 764.1328186,
     LANDSQMI: 41.83,
-    MedianIncome: 66553
+    val2: 66553
   },
   {
     Brewery: "The Unknown Brewing",
@@ -3647,9 +3647,9 @@ var points = [
     lat: 35.22059,
     lng: -80.85781,
     url: "https://www.yelp.com/biz/the-unknown-brewing-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3410.674309,
+    val1: 3410.674309,
     LANDSQMI: 3.32,
-    MedianIncome: 64604
+    val2: 64604
   },
   {
     Brewery: "Thirsty Monk Brewery & Pub",
@@ -3661,9 +3661,9 @@ var points = [
     lat: 35.5941199,
     lng: -82.55534,
     url: "https://www.yelp.com/biz/thirsty-monk-brewery-and-pub-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Thirsty Monk Brewery & Pub",
@@ -3675,9 +3675,9 @@ var points = [
     lat: 35.4859559,
     lng: -82.5549761,
     url: "https://www.yelp.com/biz/thirsty-monk-brewery-and-pub-biltmore-park?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 748.5762599,
+    val1: 748.5762599,
     LANDSQMI: 38.33,
-    MedianIncome: 45833
+    val2: 45833
   },
   {
     Brewery: "Thirsty Nomad Brewing",
@@ -3689,9 +3689,9 @@ var points = [
     lat: 35.18843071,
     lng: -80.89100227,
     url: "https://www.yelp.com/biz/thirsty-nomad-brewing-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "Thomas Creek Brewery",
@@ -3703,9 +3703,9 @@ var points = [
     lat: 34.7967616,
     lng: -82.4245252,
     url: "https://www.yelp.com/biz/thomas-creek-brewery-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1345.40215,
+    val1: 1345.40215,
     LANDSQMI: 25.58,
-    MedianIncome: 41333
+    val2: 41333
   },
   {
     Brewery: "Three Spirits Brewery",
@@ -3717,9 +3717,9 @@ var points = [
     lat: 35.1716594,
     lng: -80.8793263,
     url: "https://www.yelp.com/biz/three-spirits-brewery-charlotte-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1633.788207,
+    val1: 1633.788207,
     LANDSQMI: 14.81,
-    MedianIncome: 38832
+    val2: 38832
   },
   {
     Brewery: "Tight Lines Pub & Brewing Company",
@@ -3731,9 +3731,9 @@ var points = [
     lat: 34.7209549,
     lng: -76.712068,
     url: "https://www.yelp.com/biz/tight-lines-pub-and-brewing-company-morehead-city?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1016.009037,
+    val1: 1016.009037,
     LANDSQMI: 14.2,
-    MedianIncome: 43093
+    val2: 43093
   },
   {
     Brewery: "Tipping Point Tavern",
@@ -3745,9 +3745,9 @@ var points = [
     lat: 35.4921913,
     lng: -82.9866714,
     url: "https://www.yelp.com/biz/tipping-point-tavern-waynesville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 278.0104768,
+    val1: 278.0104768,
     LANDSQMI: 74.51,
-    MedianIncome: 42419
+    val2: 42419
   },
   {
     Brewery: "Top of the Hill Restaurant & Brewery",
@@ -3759,9 +3759,9 @@ var points = [
     lat: 35.91305,
     lng: -79.05542,
     url: "https://www.yelp.com/biz/top-of-the-hill-restaurant-and-brewery-chapel-hill?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1652.80099,
+    val1: 1652.80099,
     LANDSQMI: 19.43,
-    MedianIncome: 56333
+    val2: 56333
   },
   {
     Brewery: "Tradesman Brewing Co",
@@ -3773,9 +3773,9 @@ var points = [
     lat: 32.75986,
     lng: -79.97371,
     url: "https://www.yelp.com/biz/tradesman-brewing-co-charleston?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 913.6582062,
+    val1: 913.6582062,
     LANDSQMI: 39.24,
-    MedianIncome: 59216
+    val2: 59216
   },
   {
     Brewery: "Tradition Brewing Company",
@@ -3787,9 +3787,9 @@ var points = [
     lat: 37.08391,
     lng: -76.47665,
     url: "https://www.yelp.com/biz/tradition-brewing-company-newport-news?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3124.229288,
+    val1: 3124.229288,
     LANDSQMI: 9.37,
-    MedianIncome: 57230
+    val2: 57230
   },
   {
     Brewery: "Triple C Brewing Company",
@@ -3801,9 +3801,9 @@ var points = [
     lat: 35.2011795,
     lng: -80.8696365,
     url: "https://www.yelp.com/biz/triple-c-brewing-company-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3410.674309,
+    val1: 3410.674309,
     LANDSQMI: 3.32,
-    MedianIncome: 64604
+    val2: 64604
   },
   {
     Brewery: "Trollingwood Taproom & Brewery",
@@ -3815,9 +3815,9 @@ var points = [
     lat: 35.6092282,
     lng: -77.3762441,
     url: "https://www.yelp.com/biz/trollingwood-taproom-and-brewery-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 299.1067671,
+    val1: 299.1067671,
     LANDSQMI: 176.91,
-    MedianIncome: 31265
+    val2: 31265
   },
   {
     Brewery: "Trophy Brewing Co",
@@ -3829,9 +3829,9 @@ var points = [
     lat: 35.76164032,
     lng: -78.65710102,
     url: "https://www.yelp.com/biz/trophy-brewing-co-raleigh-4?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 911.3405877,
+    val1: 911.3405877,
     LANDSQMI: 51.61,
-    MedianIncome: 54904
+    val2: 54904
   },
   {
     Brewery: "Trophy Brewing Company",
@@ -3843,9 +3843,9 @@ var points = [
     lat: 35.779747,
     lng: -78.6535339,
     url: "https://www.yelp.com/biz/trophy-brewing-company-raleigh?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 911.3405877,
+    val1: 911.3405877,
     LANDSQMI: 51.61,
-    MedianIncome: 54904
+    val2: 54904
   },
   {
     Brewery: "Twin Leaf Brewery",
@@ -3857,9 +3857,9 @@ var points = [
     lat: 35.589452,
     lng: -82.554524,
     url: "https://www.yelp.com/biz/twin-leaf-brewery-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Twisted Spur Brewing",
@@ -3871,9 +3871,9 @@ var points = [
     lat: 33.99930338,
     lng: -81.04121201,
     url: "https://www.yelp.com/biz/twisted-spur-brewing-columbia?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1803.262807,
+    val1: 1803.262807,
     LANDSQMI: 11.42,
-    MedianIncome: 29557
+    val2: 29557
   },
   {
     Brewery: "Two Blokes Brewing",
@@ -3885,9 +3885,9 @@ var points = [
     lat: 32.83980708,
     lng: -79.86850948,
     url: "https://www.yelp.com/biz/two-blokes-brewing-mount-pleasant?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1467.45446,
+    val1: 1467.45446,
     LANDSQMI: 29.74,
-    MedianIncome: 68721
+    val2: 68721
   },
   {
     Brewery: "Up Country Brewing",
@@ -3899,9 +3899,9 @@ var points = [
     lat: 35.5815315,
     lng: -82.6043091,
     url: "https://www.yelp.com/biz/up-country-brewing-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1015.454487,
+    val1: 1015.454487,
     LANDSQMI: 37.96,
-    MedianIncome: 41548
+    val2: 41548
   },
   {
     Brewery: "Upstate Craft Beer Company",
@@ -3913,9 +3913,9 @@ var points = [
     lat: 34.83839931,
     lng: -82.40651339,
     url: "https://www.yelp.com/biz/upstate-craft-beer-company-greenville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2466.242027,
+    val1: 2466.242027,
     LANDSQMI: 4.28,
-    MedianIncome: 32068
+    val2: 32068
   },
   {
     Brewery: "Valley River Brewery",
@@ -3927,9 +3927,9 @@ var points = [
     lat: 35.0884672,
     lng: -84.034915,
     url: "https://www.yelp.com/biz/valley-river-brewery-murphy?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 55.35957413,
+    val1: 55.35957413,
     LANDSQMI: 333.73,
-    MedianIncome: 34451
+    val2: 34451
   },
   {
     Brewery: "Wasserhund Brewing Company",
@@ -3941,9 +3941,9 @@ var points = [
     lat: 36.8491648,
     lng: -76.0276479,
     url: "https://www.yelp.com/biz/wasserhund-brewing-company-virginia-beach-3?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1969.54435,
+    val1: 1969.54435,
     LANDSQMI: 30.61,
-    MedianIncome: 64721
+    val2: 64721
   },
   {
     Brewery: "Waterline Brewing Co",
@@ -3955,9 +3955,9 @@ var points = [
     lat: 34.2259664,
     lng: -77.9487557,
     url: "https://www.yelp.com/biz/waterline-brewing-co-wilmington?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 914.4553215,
+    val1: 914.4553215,
     LANDSQMI: 24.16,
-    MedianIncome: 27702
+    val2: 27702
   },
   {
     Brewery: "Wayward Brews",
@@ -3969,9 +3969,9 @@ var points = [
     lat: 36.00202,
     lng: -80.263486,
     url: "https://www.yelp.com/biz/wayward-brews-winston-salem?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1146.15401,
+    val1: 1146.15401,
     LANDSQMI: 29.78,
-    MedianIncome: 46103
+    val2: 46103
   },
   {
     Brewery: "Wedge Brewing Company",
@@ -3983,9 +3983,9 @@ var points = [
     lat: 35.5861437,
     lng: -82.5663199,
     url: "https://www.yelp.com/biz/wedge-brewing-company-asheville-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Weeping Radish Farm Brewery",
@@ -3997,9 +3997,9 @@ var points = [
     lat: 36.21913,
     lng: -75.87098,
     url: "https://www.yelp.com/biz/weeping-radish-farm-brewery-grandy?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 357.1633557,
+    val1: 357.1633557,
     LANDSQMI: 6.61,
-    MedianIncome: 54191
+    val2: 54191
   },
   {
     Brewery: "Westbrook Brewing Co",
@@ -4011,9 +4011,9 @@ var points = [
     lat: 32.84673,
     lng: -79.877111,
     url: "https://www.yelp.com/biz/westbrook-brewing-co-mount-pleasant-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1467.45446,
+    val1: 1467.45446,
     LANDSQMI: 29.74,
-    MedianIncome: 68721
+    val2: 68721
   },
   {
     Brewery: "Wharf Hill Brewing Co.",
@@ -4025,9 +4025,9 @@ var points = [
     lat: 36.98254,
     lng: -76.63025,
     url: "https://www.yelp.com/biz/wharf-hill-brewing-co-smithfield?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 171.8779573,
+    val1: 171.8779573,
     LANDSQMI: 100.54,
-    MedianIncome: 68348
+    val2: 68348
   },
   {
     Brewery: "White Rabbit Brewery",
@@ -4039,9 +4039,9 @@ var points = [
     lat: 35.507732,
     lng: -78.74861,
     url: "https://www.yelp.com/biz/white-rabbit-brewery-angier?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 287.3181442,
+    val1: 287.3181442,
     LANDSQMI: 61.16,
-    MedianIncome: 43289
+    val2: 43289
   },
   {
     Brewery: "White Street Brewing Company",
@@ -4053,9 +4053,9 @@ var points = [
     lat: 35.9775009,
     lng: -78.5101624,
     url: "https://www.yelp.com/biz/white-street-brewing-company-wake-forest-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 506.5260028,
+    val1: 506.5260028,
     LANDSQMI: 104.79,
-    MedianIncome: 81287
+    val2: 81287
   },
   {
     Brewery: "Wicked Weed",
@@ -4067,9 +4067,9 @@ var points = [
     lat: 35.59169,
     lng: -82.55109,
     url: "https://www.yelp.com/biz/wicked-weed-asheville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2955.248354,
+    val1: 2955.248354,
     LANDSQMI: 5.08,
-    MedianIncome: 29441
+    val2: 29441
   },
   {
     Brewery: "Wilmington Brewing Company",
@@ -4081,9 +4081,9 @@ var points = [
     lat: 34.22111092,
     lng: -77.88660346,
     url: "https://www.yelp.com/biz/wilmington-brewing-company-wilmington-2?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 2562.762442,
+    val1: 2562.762442,
     LANDSQMI: 14.07,
-    MedianIncome: 34356
+    val2: 34356
   },
   {
     Brewery: "Winding Creek Brewing Company",
@@ -4095,9 +4095,9 @@ var points = [
     lat: 35.25421,
     lng: -82.19534,
     url: "https://www.yelp.com/biz/winding-creek-brewing-company-columbus?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 139.7917005,
+    val1: 139.7917005,
     LANDSQMI: 45.57,
-    MedianIncome: 43841
+    val2: 43841
   },
   {
     Brewery: "Wooden Robot Brewery",
@@ -4109,9 +4109,9 @@ var points = [
     lat: 35.21699882,
     lng: -80.85719646,
     url: "https://www.yelp.com/biz/wooden-robot-brewery-charlotte?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3410.674309,
+    val1: 3410.674309,
     LANDSQMI: 3.32,
-    MedianIncome: 64604
+    val2: 64604
   },
   {
     Brewery: "Yee-Haw Brewing",
@@ -4123,9 +4123,9 @@ var points = [
     lat: 36.31528022,
     lng: -82.35275924,
     url: "https://www.yelp.com/biz/yee-haw-brewing-johnson-city?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 1013.834347,
+    val1: 1013.834347,
     LANDSQMI: 33.78,
-    MedianIncome: 39298
+    val2: 39298
   },
   {
     Brewery: "Yester Years Brewery",
@@ -4137,9 +4137,9 @@ var points = [
     lat: 35.91010738,
     lng: -79.06871992,
     url: "https://www.yelp.com/biz/yester-years-brewery-carrboro?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3910.773906,
+    val1: 3910.773906,
     LANDSQMI: 3.74,
-    MedianIncome: 40658
+    val2: 40658
   },
   {
     Brewery: "York Chester Brewing Company",
@@ -4151,9 +4151,9 @@ var points = [
     lat: 35.23642773,
     lng: -81.01667743,
     url: "https://www.yelp.com/biz/york-chester-brewing-company-belmont?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 732.6959157,
+    val1: 732.6959157,
     LANDSQMI: 27.36,
-    MedianIncome: 52292
+    val2: 52292
   },
   {
     Brewery: "Young Veterans Brewing Company",
@@ -4165,9 +4165,9 @@ var points = [
     lat: 36.78635,
     lng: -76.05546,
     url: "https://www.yelp.com/biz/young-veterans-brewing-company-virginia-beach?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 3906.483957,
+    val1: 3906.483957,
     LANDSQMI: 9.21,
-    MedianIncome: 66944
+    val2: 66944
   },
   {
     Brewery: "Zebulon Artisian Ales",
@@ -4179,8 +4179,8 @@ var points = [
     lat: 35.69745853,
     lng: -82.56112397,
     url: "https://www.yelp.com/biz/zebulon-artisian-ales-weaverville?adjust_creative=o8DW2hHiSdQ7YpkFIQfVSA&utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=o8DW2hHiSdQ7YpkFIQfVSA",
-    POPDensity: 247.9124249,
+    val1: 247.9124249,
     LANDSQMI: 79.54,
-    MedianIncome: 50230
+    val2: 50230
   }
 ];

@@ -6,10 +6,10 @@ var map;
 var markers = [];
 
 var filter;
-var POPDensity;
-var PDGrouping;
-var MedianIncome;
-var MIGrouping;
+var val1Dimension;
+var val1Grouping;
+var val2Dimension;
+var val2Grouping;
 var charts;
 var domCharts;
 
@@ -48,9 +48,9 @@ function init() {
 function initMap() {
   google.maps.visualRefresh = true;
 
-  var myLatlng = new google.maps.LatLng(34.8785055,-80.4540487);
+  var myLatlng = new google.maps.LatLng(38.1, -96.24);
   var mapOptions = {
-    zoom: 6,
+    zoom: 4,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: false,
@@ -74,40 +74,41 @@ function initCrossfilter() {
   filter = crossfilter(points);
 
   // simple dimensions and groupings for major variables
-  POPDensity = filter.dimension(
+  val1Dimension = filter.dimension(
       function(p) {
-        return p.POPDensity;
+        return p.val1;
       });
-  PDGrouping = POPDensity.group(
+  val1Grouping = val1Dimension.group(
       function(v) {
-        return Math.floor(v / 5) *5;
+        return Math.floor(v);
       });
 
-  MedianIncome = filter.dimension(
+  val2Dimension = filter.dimension(
       function(p) {
-        return p.MedianIncome;
+        return p.val2;
       });
-  MIGrouping = MedianIncome.group(
+  val2Grouping = val2Dimension.group(
       function(v) {
-        return Math.floor(v / 500) * 500;
+        return Math.floor(v / 25) * 25;
       });
 
   // initialize charts (helper function in chart.js)
   // taken directly from crossfilter's example
   charts = [
     barChart()
-      .dimension(POPDensity)
-      .group(PDGrouping)
+      .dimension(val1Dimension)
+      .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 5000])
-          .rangeRound([0, 50 * 20])),
+          .domain([0, 10])
+          .rangeRound([0, 10 * 10])),
 
     barChart()
-      .dimension(MedianIncome)
-      .group(MIGrouping)
+      .dimension(val2Dimension)
+      .group(val2Grouping)
       .x(d3.scale.linear()
-          .domain([0, 200000])
-          .rangeRound([0, 20 * 20]))
+          .domain([0, 1000])
+          .rangeRound([0, 40 * 10]))
+      .filter([75, 525])
   ];
 
   // bind charts to dom
