@@ -122,21 +122,21 @@ function initCrossfilter() {
       .group(val1Grouping)
       .x(d3.scale.linear()
           .domain([0, 5000])
-          .rangeRound([0, 20 * 20])),
+          .rangeRound([0, 30 * 10])),
 
     barChart()
       .dimension(val2Dimension)
       .group(val2Grouping)
       .x(d3.scale.linear()
           .domain([0, 200000])
-          .rangeRound([0, 20 * 20])),
+          .rangeRound([0, 30 * 10])),
 
     barChart()
       .dimension(yelpDimension)
       .group(yelpGrouping)
       .x(d3.scale.linear()
           .domain([0, 5])
-          .rangeRound([0, 10 * 5])),
+          .rangeRound([0, 20 * 5])),
 
     barChart()
       .dimension(reviewsDimension)
