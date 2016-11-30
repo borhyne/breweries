@@ -48,9 +48,9 @@ function init() {
 function initMap() {
   google.maps.visualRefresh = true;
 
-  var myLatlng = new google.maps.LatLng(38.1, -96.24);
+  var myLatlng = new google.maps.LatLng(34.6194155,-81.4748747);
   var mapOptions = {
-    zoom: 4,
+    zoom: 6,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: false,
