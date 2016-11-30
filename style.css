@@ -50,7 +50,7 @@ body {
 }
 
 #val-chart {
-  width: 310px;
+  width: 100%;
 }
 
 #val2-chart {
@@ -58,11 +58,11 @@ body {
 }
 
 #yelprating-chart {
-  width: 310px;
+  width: 140px;
 }
 
 #numreviews-chart {
-  width: 200px;
+  width: 310px;
 }
 
 #map-div {
