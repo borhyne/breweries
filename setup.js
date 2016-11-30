@@ -80,7 +80,7 @@ function initCrossfilter() {
       });
   PDGrouping = PDDimension.group(
       function(v) {
-        return Math.floor(v / 100) * 100;
+        return Math.floor(v / 50) * 50;
       });
 
   MIDimension = filter.dimension(
