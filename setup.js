@@ -121,8 +121,8 @@ function initCrossfilter() {
       .dimension(val1Dimension)
       .group(val1Grouping)
       .x(d3.scale.linear()
-          .domain([0, 30000])
-          .rangeRound([0, 200 * 5])),
+          .domain([0, 3])
+          .rangeRound([0, 60 * 5])),
 
     barChart()
       .dimension(val2Dimension)

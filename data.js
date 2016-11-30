@@ -287,7 +287,7 @@ var points = [
   {YelpRating: 4, NumReviews: 63, lat: 36.83761743, lng: -75.98107358, POPDensity: 2258.017377, LANDSQMI: 18.4, MedianIncome: 59017},
   {YelpRating: 3.5, NumReviews: 192, lat: 36.84322, lng: -76.13459, POPDensity: 5292.483788, LANDSQMI: 11.71, MedianIncome: 56617},
   {YelpRating: 4, NumReviews: 78, lat: 36.8491648, lng: -76.0276479, POPDensity: 1969.54435, LANDSQMI: 30.61, MedianIncome: 64721},
-  {YelpRating: 4.5, NumReviews: 75, lat: 36.86642, lng: -76.30935, POPDensity: 29073.01402, LANDSQMI: 0.89, MedianIncome: 62755},
+  {YelpRating: 4.5, NumReviews: 75, lat: 36.86642, lng: -76.30935, POPDensity: 7932.01402, LANDSQMI: 0.89, MedianIncome: 62755},
   {YelpRating: 4, NumReviews: 80, lat: 36.8701064, lng: -76.2862252, POPDensity: 5617.312056, LANDSQMI: 0.8, MedianIncome: 40513},
   {YelpRating: 4.5, NumReviews: 9, lat: 36.8703778, lng: -76.2836594, POPDensity: 5617.312056, LANDSQMI: 0.8, MedianIncome: 40513},
   {YelpRating: 4, NumReviews: 22, lat: 36.87154565, lng: -76.29519832, POPDensity: 5617.312056, LANDSQMI: 0.8, MedianIncome: 40513},
